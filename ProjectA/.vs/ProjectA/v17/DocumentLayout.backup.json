@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\GitHub\\DoAn\\ProjectA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\about\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\about\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\new\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\new\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\about\\location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\about\\location.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -22,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProjectA\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "ProjectA\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-29T13:29:41.82Z",
               "IsPinned": true,
@@ -40,20 +52,62 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gallery.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\About\\Gallery.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\About\\Gallery.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\About\\Gallery.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\About\\Gallery.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T14:11:36.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "mycss.css",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\css\\mycss.css",
-              "RelativeDocumentMoniker": "ProjectA\\wwwroot\\css\\mycss.css",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\css\\mycss.css*",
-              "RelativeToolTip": "ProjectA\\wwwroot\\css\\mycss.css*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-29T14:04:58.416Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\New\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\New\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\New\\Index.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\New\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T14:10:43.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Location.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\About\\Location.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\About\\Location.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\About\\Location.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\About\\Location.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T14:09:48.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "mycss.css",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\css\\mycss.css",
+              "RelativeDocumentMoniker": "ProjectA\\wwwroot\\css\\mycss.css",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\css\\mycss.css",
+              "RelativeToolTip": "ProjectA\\wwwroot\\css\\mycss.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-29T14:04:58.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Shop.cshtml",
               "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Home\\Shop.cshtml",
               "RelativeDocumentMoniker": "ProjectA\\Views\\Home\\Shop.cshtml",
@@ -61,12 +115,7 @@
               "RelativeToolTip": "ProjectA\\Views\\Home\\Shop.cshtml",
               "ViewState": "AgIAAN4BAAAAAAAAAAAAAOEBAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T13:54:04.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2024-10-29T13:54:04.714Z"
             }
           ]
         }
