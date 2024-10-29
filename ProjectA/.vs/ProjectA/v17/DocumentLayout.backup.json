@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|c:\\users\\wunhh\\desktop\\.net core\\projecta\\projecta\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|c:\\users\\wunhh\\desktop\\.net core\\projecta\\projecta\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|c:\\users\\wunhh\\desktop\\.net core\\projecta\\projecta\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|c:\\users\\wunhh\\desktop\\.net core\\projecta\\projecta\\wwwroot\\assets\\css\\mycss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\wwwroot\\assets\\css\\mycss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|c:\\users\\wunhh\\desktop\\.net core\\projecta\\projecta\\wwwroot\\assets\\css\\app.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\wwwroot\\assets\\css\\app.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|c:\\users\\wunhh\\desktop\\.net core\\projecta\\projecta\\wwwroot\\assets\\css\\icons.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\wwwroot\\assets\\css\\icons.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashBoard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\Views\\Admin\\DashBoard.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\Admin\\DashBoard.cshtml",
+              "ToolTip": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\Views\\Admin\\DashBoard.cshtml*",
+              "RelativeToolTip": "ProjectA\\Views\\Admin\\DashBoard.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T03:41:18.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ProjectA\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ProjectA\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:40:47.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "icons.min.css",
+              "DocumentMoniker": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\icons.min.css",
+              "RelativeDocumentMoniker": "ProjectA\\wwwroot\\assets\\css\\icons.min.css",
+              "ToolTip": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\icons.min.css",
+              "RelativeToolTip": "ProjectA\\wwwroot\\assets\\css\\icons.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-29T03:36:06.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyCss.css",
+              "DocumentMoniker": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\MyCss.css",
+              "RelativeDocumentMoniker": "ProjectA\\wwwroot\\assets\\css\\MyCss.css",
+              "ToolTip": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\MyCss.css",
+              "RelativeToolTip": "ProjectA\\wwwroot\\assets\\css\\MyCss.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-29T03:36:02.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.min.css",
+              "DocumentMoniker": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\app.min.css",
+              "RelativeDocumentMoniker": "ProjectA\\wwwroot\\assets\\css\\app.min.css",
+              "ToolTip": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\app.min.css",
+              "RelativeToolTip": "ProjectA\\wwwroot\\assets\\css\\app.min.css",
+              "ViewState": "AgIAAP0iAAAAAAAAAAAAAAUjAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-29T03:29:23.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T03:29:09.335Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
