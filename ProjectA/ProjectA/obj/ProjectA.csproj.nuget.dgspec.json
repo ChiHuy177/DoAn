@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\ProjectA.csproj": {}
+    "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\ProjectA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\ProjectA.csproj": {
+    "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\ProjectA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\ProjectA.csproj",
+        "projectUniqueName": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\ProjectA.csproj",
         "projectName": "ProjectA",
-        "projectPath": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\ProjectA.csproj",
+        "projectPath": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\ProjectA.csproj",
         "packagesPath": "C:\\Users\\Wunhh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\obj\\",
+        "outputPath": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wunhh\\AppData\\Roaming\\NuGet\\NuGet.Config",

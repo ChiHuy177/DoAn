@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="~/css/style.css">
     <!-- Responsive css -->
     <link rel="stylesheet" href="~/css/responsive.css">
+    <link rel="stylesheet" href="~/css/mycss.css">
 </head>
 
 <body>
@@ -88,24 +89,7 @@
                         <div class="col header-contact-serarch-column d-none d-lg-block">
                             <div class="header-contact-search">
                                 <!-- header-feature-item -->
-                                <div class="header-feature-item">
-                                    <div class="header-feature-icon">
-                                        <i class="icon-call"></i>
-                                    </div>
-                                    <div class="header-feature-info">
-                                        <h6>Phone</h6>
-                                        <p><a href="tel:0123456789">+0123-456-789</a></p>
-                                    </div>
-                                </div>
-                                <!-- header-search-2 -->
-                                <div class="header-search-2">
-                                    <form id="#123" method="get" action="#">
-                                        <input type="text" name="search" value="" placeholder="Search here..." />
-                                        <button type="submit">
-                                            <span><i class="icon-search"></i></span>
-                                        </button>
-                                    </form>
-                                </div>
+                               
                             </div>
                         </div>
                         <div class="col">
@@ -161,8 +145,8 @@
                                                     <ul>
                                                         <li><a asp-action="SignIn" asp-controller="Account">Sign in</a></li>
                                                         <li><a asp-action="Register" asp-controller="Account">Register</a></li>
-                                                        <li><a href="account.html">My Account</a></li>
-                                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                                        <li><a asp-action="Account" asp-controller="Account">My Account</a></li>
+                                                        
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -203,9 +187,8 @@
                                 <nav>
                                     <div class="ltn__main-menu">
                                         <ul>
-                                            <li class="menu-icon"><a asp-action="Index" asp-controller="Home">Home</a>
-
-                                            </li>
+                                            <li class="menu-icon"><a asp-action="Index" asp-controller="Home">Home</a></li>
+                                            <li class="menu-icon"><a asp-action="Shop" asp-controller="Home">Shop</a></li>
                                             <li class="menu-icon has-children">
                                                 <a asp-action="About" asp-controller="About">About</a>
                                                 <ul>
@@ -316,10 +299,9 @@
                         <h5>Subtotal: <span>$310.00</span></h5>
                     </div>
                     <div class="btn-wrapper">
-                        <a href="cart.html" class="theme-btn-1 btn btn-effect-1">View Cart</a>
-                        <a href="cart.html" class="theme-btn-2 btn btn-effect-2">Checkout</a>
+                        <a asp-action="Cart" asp-controller="Home" class="theme-btn-1 btn btn-effect-1">Checkout</a>
                     </div>
-                    <p>Free Shipping on All Orders Over $100!</p>
+                    
                 </div>
 
             </div>
@@ -492,8 +474,7 @@
                                         <img src="~/img/logo-2.png" alt="Logo">
                                     </div>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is
-                                    dummy text of the printing.</p>
+                                <p>Your Health, Our Priority – Trusted Medications Delivered to Your Doorstep.</p>
                                 <div class="footer-address">
                                     <ul>
                                         <li>
@@ -501,7 +482,7 @@
                                                 <i class="icon-placeholder"></i>
                                             </div>
                                             <div class="footer-address-info">
-                                                <p>Brooklyn, New York, United States</p>
+                                                <p>Thu Dau Mot, Binh Duong, Viet Nam</p>
                                             </div>
                                         </li>
                                         <li>
@@ -524,10 +505,10 @@
                                 </div>
                                 <div class="ltn__social-media mt-20">
                                     <ul>
-                                        <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
-                                        <li><a href="#" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+                                        <li><i class="fab fa-facebook-f"></i></li>
+                                        <li><i class="fab fa-twitter"></i></li>
+                                        <li> <i class="fab fa-linkedin"></i></li>
+                                        <li> <i class="fab fa-youtube"></i></li>
                                     </ul>
                                 </div>
                             </div>
@@ -550,11 +531,9 @@
                             <div class="footer-widget footer-menu-widget clearfix">
                                 <h4 class="footer-title">Services</h4>
                                 <div class="footer-menu">
-                                    <ul>
-                                        <li><a href="order-tracking.html">Order tracking</a></li>
-                                        <li><a href="wishlist.html">Wish List</a></li>
+                                    <ul>                                  
                                         <li><a asp-action="SignIn" asp-controller="Account">Login</a></li>
-                                        <li><a href="account.html">My account</a></li>
+                                        <li><a asp-action="Account" asp-controller="Account">My account</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -564,7 +543,7 @@
                                 <h4 class="footer-title">Customer Care</h4>
                                 <div class="footer-menu">
                                     <ul>
-                                        <li><a href="contact.html">Contact us</a></li>
+                                        <li><a asp-action="Contact" asp-controller="About">Contact us</a></li>
                                     </ul>
                                 </div>
                             </div>

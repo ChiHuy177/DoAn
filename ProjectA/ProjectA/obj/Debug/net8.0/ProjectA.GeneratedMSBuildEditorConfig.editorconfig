@@ -17,103 +17,111 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjectA
 build_property.RootNamespace = ProjectA
-build_property.ProjectDir = C:\Users\Wunhh\Desktop\.net core\ProjectA\ProjectA\
+build_property.ProjectDir = D:\GitHub\DoAn\ProjectA\ProjectA\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Wunhh\Desktop\.net core\ProjectA\ProjectA
+build_property.MSBuildProjectDirectory = D:\GitHub\DoAn\ProjectA\ProjectA
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/About/About.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/About/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/About/Contact.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/About/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/About/FAQ.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/About/FAQ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcRkFRLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/About/Gallery.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/About/Gallery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcR2FsbGVyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/About/Location.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/About/Location.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcTG9jYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/About/Team.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/About/Team.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcVGVhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Account/Register.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Account/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Account/SignIn.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Account/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Admin/DashBoard.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Admin/DashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaEJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Admin/Login.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Home/Index.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Home/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Home/Privacy.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Home/ProductDetails.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Home/ProductDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Home/Service.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Home/Service.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Home/ServiceDetails.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Home/ServiceDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Home/Shop.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Home/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/New/Index.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/New/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/New/Tips.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/New/Tips.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3XFRpcHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Shared/Error.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/_ViewImports.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/_ViewStart.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wunhh/Desktop/.net core/ProjectA/ProjectA/Views/Shared/_Layout.cshtml]
+[D:/GitHub/DoAn/ProjectA/ProjectA/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rcup7d4re5

@@ -1,1915 +1,1919 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjectA.bundle.scp.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjectA.bundle.scp.css",
       "PackagePath": "staticwebassets\\ProjectA.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\MyCss.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\MyCss.css",
       "PackagePath": "staticwebassets\\assets\\css\\MyCss.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\app.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\app.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\app.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\fonts\\tabler-icons.html",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\fonts\\tabler-icons.html",
       "PackagePath": "staticwebassets\\assets\\css\\fonts\\tabler-icons.html"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\fonts\\tabler-iconsd41d.html",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\fonts\\tabler-iconsd41d.html",
       "PackagePath": "staticwebassets\\assets\\css\\fonts\\tabler-iconsd41d.html"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\icons.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\icons.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\icons.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900d41d.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\feather144f.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\feather144f.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\feather144f.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\feather144f.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\feather144f.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\feather144f.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\feather144f.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\feather144f.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\feather144f.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400d41d.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-brands-400d41d.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400d41d.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-regular-400d41d.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900d41d.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\la-solid-900d41d.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900d41d.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\materialdesignicons-webfonta5da.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\materialdesignicons-webfonta5da.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfonta5da.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\materialdesignicons-webfonta5da.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\materialdesignicons-webfonta5da.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfonta5da.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\materialdesignicons-webfonta5da.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\materialdesignicons-webfonta5da.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfonta5da.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\materialdesignicons-webfonta5da.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\materialdesignicons-webfonta5da.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfonta5da.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\materialdesignicons-webfontd41d.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\materialdesignicons-webfontd41d.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\materialdesignicons-webfontd41d.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\tabler-icons.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\tabler-icons.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\tabler-icons.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\tabler-icons.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\tabler-icons.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\tabler-icons.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\tabler-icons.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\tabler-icons.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\tabler-icons.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\tabler-icons.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\tabler-icons.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\tabler-icons.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\bell.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\bell.png",
       "PackagePath": "staticwebassets\\assets\\images\\bell.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\dashboards\\Unikit.html",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\dashboards\\Unikit.html",
       "PackagePath": "staticwebassets\\assets\\images\\dashboards\\Unikit.html"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\dashboards\\crovex.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\dashboards\\crovex.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\dashboards\\crovex.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\dashboards\\dastyle.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\dashboards\\dastyle.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\dashboards\\dastyle.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\dashboards\\frogetor.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\dashboards\\frogetor.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\dashboards\\frogetor.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\error.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\error.svg",
       "PackagePath": "staticwebassets\\assets\\images\\error.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\favicon.ico",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\favicon.ico",
       "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\flags\\french_flag.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\flags\\french_flag.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\flags\\french_flag.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\flags\\germany_flag.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\flags\\germany_flag.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\flags\\germany_flag.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\flags\\spain_flag.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\flags\\spain_flag.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\flags\\spain_flag.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\flags\\us_flag.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\flags\\us_flag.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\flags\\us_flag.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logo-dark.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logo-dark.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo-dark.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logo-sm.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logo-sm.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo-sm.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logo.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\btc.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\btc.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\btc.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\card-2.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\card-2.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\card-2.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\chrome.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\chrome.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\chrome.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\dash.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\dash.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\dash.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\dollar.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\dollar.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\dollar.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\eth.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\eth.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\eth.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\in-explorer.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\in-explorer.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\in-explorer.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\lite.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\lite.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\lite.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\micro-edge.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\micro-edge.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\micro-edge.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\mon.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\mon.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\mon.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\money-beg.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\money-beg.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\money-beg.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\opera.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\opera.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\opera.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\paypal.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\paypal.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\paypal.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\qub.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\logos\\qub.png",
       "PackagePath": "staticwebassets\\assets\\images\\logos\\qub.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\p-1.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\p-1.png",
       "PackagePath": "staticwebassets\\assets\\images\\p-1.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\01.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\01.png",
       "PackagePath": "staticwebassets\\assets\\images\\products\\01.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\02.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\02.png",
       "PackagePath": "staticwebassets\\assets\\images\\products\\02.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\03.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\03.png",
       "PackagePath": "staticwebassets\\assets\\images\\products\\03.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\04.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\04.png",
       "PackagePath": "staticwebassets\\assets\\images\\products\\04.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\05.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\05.png",
       "PackagePath": "staticwebassets\\assets\\images\\products\\05.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\06.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\06.png",
       "PackagePath": "staticwebassets\\assets\\images\\products\\06.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\07.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\products\\07.png",
       "PackagePath": "staticwebassets\\assets\\images\\products\\07.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\signature.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\signature.png",
       "PackagePath": "staticwebassets\\assets\\images\\signature.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\btc.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\btc.png",
       "PackagePath": "staticwebassets\\assets\\images\\small\\btc.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\business.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\business.png",
       "PackagePath": "staticwebassets\\assets\\images\\small\\business.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\calendar.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\calendar.svg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\calendar.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\cry_logo-2.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\cry_logo-2.png",
       "PackagePath": "staticwebassets\\assets\\images\\small\\cry_logo-2.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\cry_logo.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\cry_logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\small\\cry_logo.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\ex-card.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\ex-card.png",
       "PackagePath": "staticwebassets\\assets\\images\\small\\ex-card.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\flame.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\flame.png",
       "PackagePath": "staticwebassets\\assets\\images\\small\\flame.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\img-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\img-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-3.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\img-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-4.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\img-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-5.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\img-5.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-6.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\img-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\img-6.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\news-1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\news-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\news-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\news-2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\news-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\news-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\news-3.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\news-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\news-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\p-1.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\p-1.png",
       "PackagePath": "staticwebassets\\assets\\images\\small\\p-1.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\p-2.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\p-2.png",
       "PackagePath": "staticwebassets\\assets\\images\\small\\p-2.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\p-3.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\p-3.png",
       "PackagePath": "staticwebassets\\assets\\images\\small\\p-3.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\p-4.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\p-4.png",
       "PackagePath": "staticwebassets\\assets\\images\\small\\p-4.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\project-1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\project-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\project-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\project-2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\project-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\project-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\project-3.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\project-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\project-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\project-4.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\project-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\project-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\sm-1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\sm-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\sm-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\sm-2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\sm-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\sm-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\svg-map.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\small\\svg-map.svg",
       "PackagePath": "staticwebassets\\assets\\images\\small\\svg-map.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\speaker-light.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\speaker-light.png",
       "PackagePath": "staticwebassets\\assets\\images\\speaker-light.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-10.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-10.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-10.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-3.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-4.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-5.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-5.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-6.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-6.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-7.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-7.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-8.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-8.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-9.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\images\\users\\user-9.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-9.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\app.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\app.js",
       "PackagePath": "staticwebassets\\assets\\js\\app.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\analytics-customers.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\analytics-customers.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\analytics-customers.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\analytics-index.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\analytics-index.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\analytics-index.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\analytics-report.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\analytics-report.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\analytics-report.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\animation.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\animation.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\animation.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\apexcharts.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\apexcharts.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\apexcharts.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\calendar.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\calendar.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\calendar.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\chartjs.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\chartjs.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\chartjs.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\clipboard.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\clipboard.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\clipboard.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\crypto-exchange.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\crypto-exchange.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\crypto-exchange.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\crypto-index.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\crypto-index.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\crypto-index.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\crypto-wallet.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\crypto-wallet.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\crypto-wallet.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\datatable.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\datatable.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\datatable.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\dragula.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\dragula.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\dragula.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\ecommerce-index.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\ecommerce-index.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\ecommerce-index.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\editable.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\editable.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\editable.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\file-upload.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\file-upload.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\file-upload.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\form-editor.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\form-editor.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\form-editor.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\form-validation.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\form-validation.js",
       "PackagePath": "staticwebassets\\assets\\pages\\form-validation.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\form-wizard.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\form-wizard.js",
       "PackagePath": "staticwebassets\\assets\\pages\\form-wizard.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\forms-advanced.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\forms-advanced.js",
       "PackagePath": "staticwebassets\\assets\\pages\\forms-advanced.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\gallery.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\gallery.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\gallery.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\gmaps.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\gmaps.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\gmaps.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\justgage.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\justgage.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\justgage.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\leaflet-map.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\leaflet-map.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\leaflet-map.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\projects-index.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\projects-index.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\projects-index.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\projects-task.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\projects-task.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\projects-task.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\splide.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\splide.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\splide.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\sweet-alert.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\sweet-alert.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\sweet-alert.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\toast-ui.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\toast-ui.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\toast-ui.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\toast.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\toast.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\toast.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\tour.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\tour.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\tour.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\tree.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\tree.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\tree.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\ui-slider.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\ui-slider.js",
       "PackagePath": "staticwebassets\\assets\\pages\\ui-slider.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\vectormap.init.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\vectormap.init.js",
       "PackagePath": "staticwebassets\\assets\\pages\\vectormap.init.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\animate\\animate.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\animate\\animate.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\animate\\animate.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\animate\\magic.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\animate\\magic.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\animate\\magic.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\apexcharts\\apexcharts.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\apexcharts\\apexcharts.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\apexcharts\\apexcharts.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\apexcharts\\irregular-data-series.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\apexcharts\\irregular-data-series.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\apexcharts\\irregular-data-series.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\apexcharts\\ohlc.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\apexcharts\\ohlc.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\apexcharts\\ohlc.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\chartjs\\chart.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\chartjs\\chart.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\chartjs\\chart.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\clipboard\\clipboard.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\clipboard\\clipboard.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\clipboard\\clipboard.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\cropper\\css\\cropper.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\cropper\\css\\cropper.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\cropper\\css\\cropper.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\cropper\\css\\main.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\cropper\\css\\main.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\cropper\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\cropper\\js\\cropper.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\cropper\\js\\cropper.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\cropper\\js\\cropper.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\cropper\\js\\main.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\cropper\\js\\main.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\cropper\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\datatables\\datatable.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\datatables\\datatable.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\datatable.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\datatables\\simple-datatables.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\datatables\\simple-datatables.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\simple-datatables.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\datepicker\\datepicker-full.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\datepicker\\datepicker-full.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\datepicker\\datepicker-full.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\datepicker\\datepicker.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\datepicker\\datepicker.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\datepicker\\datepicker.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\dragula\\dragula.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\dragula\\dragula.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\dragula\\dragula.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\dragula\\dragula.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\dragula\\dragula.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\dragula\\dragula.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\fullcalendar\\main.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\fullcalendar\\main.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fullcalendar\\main.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\fullcalendar\\main.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\fullcalendar\\main.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fullcalendar\\main.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\gmaps\\gmaps.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\gmaps\\gmaps.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\gmaps\\gmaps.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\hopscotch\\hopscotch.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\hopscotch\\hopscotch.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\hopscotch\\hopscotch.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\hopscotch\\hopscotch.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\hopscotch\\hopscotch.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\hopscotch\\hopscotch.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\hopscotch\\img\\sprite-green.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\hopscotch\\img\\sprite-green.png",
       "PackagePath": "staticwebassets\\assets\\plugins\\hopscotch\\img\\sprite-green.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\huebee\\huebee.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\huebee\\huebee.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\huebee\\huebee.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\huebee\\huebee.pkgd.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\huebee\\huebee.pkgd.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\huebee\\huebee.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\imask\\imask.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\imask\\imask.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\imask\\imask.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\jmap\\jsvectormap.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\jmap\\jsvectormap.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\jmap\\jsvectormap.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\jmap\\jsvectormap.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\jmap\\jsvectormap.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\jmap\\jsvectormap.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\jmap\\russia.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\jmap\\russia.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\jmap\\russia.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\jmap\\world.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\jmap\\world.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\jmap\\world.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\justgage\\justgage.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\justgage\\justgage.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\justgage\\justgage.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\justgage\\raphael.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\justgage\\raphael.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\justgage\\raphael.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\leaflet\\images\\layers-2x.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\leaflet\\images\\layers-2x.png",
       "PackagePath": "staticwebassets\\assets\\plugins\\leaflet\\images\\layers-2x.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\leaflet\\images\\layers.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\leaflet\\images\\layers.png",
       "PackagePath": "staticwebassets\\assets\\plugins\\leaflet\\images\\layers.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\leaflet\\images\\marker-icon.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\leaflet\\images\\marker-icon.png",
       "PackagePath": "staticwebassets\\assets\\plugins\\leaflet\\images\\marker-icon.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\leaflet\\leaflet.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\leaflet\\leaflet.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\leaflet\\leaflet.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\leaflet\\leaflet.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\leaflet\\leaflet.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\leaflet\\leaflet.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\lightpicker\\litepicker.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\lightpicker\\litepicker.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\lightpicker\\litepicker.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\moment\\moment.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\moment\\moment.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\moment\\moment.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\prettify\\prettify.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\prettify\\prettify.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\prettify\\prettify.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\prettify\\run_prettify.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\prettify\\run_prettify.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\prettify\\run_prettify.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\rating\\starability-all.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\rating\\starability-all.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\rating\\starability-all.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\select\\selectr.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\select\\selectr.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\select\\selectr.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\select\\selectr.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\select\\selectr.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\select\\selectr.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\shuffle\\shuffle.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\shuffle\\shuffle.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\shuffle\\shuffle.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\splide\\splide.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\splide\\splide.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\splide\\splide.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\splide\\splide.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\splide\\splide.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\splide\\splide.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\sweet-alert2\\sweetalert2.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\sweet-alert2\\sweetalert2.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\sweet-alert2\\sweetalert2.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\sweet-alert2\\sweetalert2.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\sweet-alert2\\sweetalert2.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\sweet-alert2\\sweetalert2.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tabulator\\bootstrap\\tabulator_bootstrap4.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tabulator\\bootstrap\\tabulator_bootstrap4.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\tabulator\\bootstrap\\tabulator_bootstrap4.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tabulator\\tabulator.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tabulator\\tabulator.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\tabulator\\tabulator.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tinymce\\tinymce.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tinymce\\tinymce.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\tinymce\\tinymce.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\toast-ui\\tui-chart-all.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\toast-ui\\tui-chart-all.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\toast-ui\\tui-chart-all.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\toast-ui\\tui-chart.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\toast-ui\\tui-chart.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\toast-ui\\tui-chart.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\toast-ui\\usa.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\toast-ui\\usa.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\toast-ui\\usa.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tobii\\tobii.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tobii\\tobii.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\tobii\\tobii.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tobii\\tobii.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tobii\\tobii.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\tobii\\tobii.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tree\\listree.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tree\\listree.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\tree\\listree.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tree\\listree.umd.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\tree\\listree.umd.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\tree\\listree.umd.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\ui-slider\\nouislider.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\ui-slider\\nouislider.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\ui-slider\\nouislider.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\ui-slider\\nouislider.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\ui-slider\\nouislider.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\ui-slider\\nouislider.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\ui-slider\\wNumb.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\ui-slider\\wNumb.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\ui-slider\\wNumb.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\uppy\\uppy.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\uppy\\uppy.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\uppy\\uppy.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\uppy\\uppy.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\uppy\\uppy.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\uppy\\uppy.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\css\\font-icons.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\css\\font-icons.css",
       "PackagePath": "staticwebassets\\css\\font-icons.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\css\\plugins.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\css\\mycss.css",
+      "PackagePath": "staticwebassets\\css\\mycss.css"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\css\\plugins.css",
       "PackagePath": "staticwebassets\\css\\plugins.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\css\\responsive.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\css\\style.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\favicon.ico",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\flaticon4a47.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\flaticon4a47.eot",
       "PackagePath": "staticwebassets\\fonts\\flaticon4a47.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\flaticon4a47.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\flaticon4a47.svg",
       "PackagePath": "staticwebassets\\fonts\\flaticon4a47.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\flaticon4a47.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\flaticon4a47.ttf",
       "PackagePath": "staticwebassets\\fonts\\flaticon4a47.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\flaticon4a47.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\flaticon4a47.woff",
       "PackagePath": "staticwebassets\\fonts\\flaticon4a47.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\flaticon4a47.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\flaticon4a47.woff2",
       "PackagePath": "staticwebassets\\fonts\\flaticon4a47.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\icomoon7d2d.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\icomoon7d2d.eot",
       "PackagePath": "staticwebassets\\fonts\\icomoon7d2d.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\icomoon7d2d.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\icomoon7d2d.svg",
       "PackagePath": "staticwebassets\\fonts\\icomoon7d2d.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\icomoon7d2d.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\icomoon7d2d.ttf",
       "PackagePath": "staticwebassets\\fonts\\icomoon7d2d.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\icomoon7d2d.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\icomoon7d2d.woff",
       "PackagePath": "staticwebassets\\fonts\\icomoon7d2d.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\lightcaseeead.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\lightcaseeead.eot",
       "PackagePath": "staticwebassets\\fonts\\lightcaseeead.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\lightcaseeead.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\lightcaseeead.svg",
       "PackagePath": "staticwebassets\\fonts\\lightcaseeead.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\lightcaseeead.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\lightcaseeead.ttf",
       "PackagePath": "staticwebassets\\fonts\\lightcaseeead.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\fonts\\lightcaseeead.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\fonts\\lightcaseeead.woff",
       "PackagePath": "staticwebassets\\fonts\\lightcaseeead.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\1.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\11.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\11.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\11.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\12.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\12.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\12.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\13.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\13.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\13.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\17.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\17.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\17.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\18.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\18.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\18.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\2.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\21.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\21.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\21.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\22.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\22.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\22.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\23.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\23.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\23.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\3.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\3.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\banner-1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\banner-1.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\banner-2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\banner-2.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\banner-3.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\banner-3.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\menu-banner-1.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\banner\\menu-banner-1.png",
       "PackagePath": "staticwebassets\\img\\banner\\menu-banner-1.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\11.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\11.png",
       "PackagePath": "staticwebassets\\img\\bg\\11.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\13.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\13.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\13.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\14.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\14.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\14.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\15.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\15.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\15.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\17.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\17.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\17.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\21.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\21.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\21.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\25.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\25.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\25.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\26.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\26.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\26.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\27.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\27.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\27.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\30.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\30.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\30.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\6.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\bg\\6.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\1.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\2.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\3.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\3.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\31.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\31.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\31.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\32.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\32.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\32.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\33.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\33.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\33.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\34.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\34.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\34.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\35.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\35.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\35.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\4.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\4.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\5.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\5.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\6.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\6.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\7.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\7.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\8.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\8.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\author.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\author.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\author.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\blog-details\\1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\blog-details\\1.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-details\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\blog-details\\11.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\blog-details\\11.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-details\\11.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\blog-details\\12.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\blog\\blog-details\\12.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog-details\\12.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\brand-logo\\1.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\brand-logo\\1.png",
       "PackagePath": "staticwebassets\\img\\brand-logo\\1.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\brand-logo\\2.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\brand-logo\\2.png",
       "PackagePath": "staticwebassets\\img\\brand-logo\\2.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\brand-logo\\3.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\brand-logo\\3.png",
       "PackagePath": "staticwebassets\\img\\brand-logo\\3.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\brand-logo\\4.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\brand-logo\\4.png",
       "PackagePath": "staticwebassets\\img\\brand-logo\\4.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\brand-logo\\5.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\brand-logo\\5.png",
       "PackagePath": "staticwebassets\\img\\brand-logo\\5.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\1.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\1.png",
       "PackagePath": "staticwebassets\\img\\effect\\1.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\2.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\2.png",
       "PackagePath": "staticwebassets\\img\\effect\\2.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\3.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\3.png",
       "PackagePath": "staticwebassets\\img\\effect\\3.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\4.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\4.png",
       "PackagePath": "staticwebassets\\img\\effect\\4.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\5.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\5.png",
       "PackagePath": "staticwebassets\\img\\effect\\5.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\6.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\effect\\6.png",
       "PackagePath": "staticwebassets\\img\\effect\\6.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\favicon.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\favicon.png",
       "PackagePath": "staticwebassets\\img\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\1.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\10.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\10.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\10.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\2.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\3.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\3.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\4.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\4.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\5.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\5.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\6.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\6.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\7.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\7.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\8.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\8.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\9.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\9.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\9.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\no-image.html",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\gallery\\no-image.html",
       "PackagePath": "staticwebassets\\img\\gallery\\no-image.html"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\home-demos\\home-1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\home-demos\\home-1.jpg",
       "PackagePath": "staticwebassets\\img\\home-demos\\home-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\home-demos\\home-2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\home-demos\\home-2.jpg",
       "PackagePath": "staticwebassets\\img\\home-demos\\home-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\home-demos\\home-3.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\home-demos\\home-3.jpg",
       "PackagePath": "staticwebassets\\img\\home-demos\\home-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\10.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\10.png",
       "PackagePath": "staticwebassets\\img\\icons\\10.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\11.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\11.png",
       "PackagePath": "staticwebassets\\img\\icons\\11.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\12.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\12.png",
       "PackagePath": "staticwebassets\\img\\icons\\12.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\car.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\car.png",
       "PackagePath": "staticwebassets\\img\\icons\\car.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\icon-img\\24.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\icon-img\\24.png",
       "PackagePath": "staticwebassets\\img\\icons\\icon-img\\24.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\icon-img\\25.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\icon-img\\25.png",
       "PackagePath": "staticwebassets\\img\\icons\\icon-img\\25.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\icon-img\\26.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\icon-img\\26.png",
       "PackagePath": "staticwebassets\\img\\icons\\icon-img\\26.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\icon-img\\27.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\icon-img\\27.png",
       "PackagePath": "staticwebassets\\img\\icons\\icon-img\\27.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\payment-2.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\payment-2.png",
       "PackagePath": "staticwebassets\\img\\icons\\payment-2.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\payment-3.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\payment-3.png",
       "PackagePath": "staticwebassets\\img\\icons\\payment-3.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\payment-4.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\payment-4.png",
       "PackagePath": "staticwebassets\\img\\icons\\payment-4.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\payment.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\payment.png",
       "PackagePath": "staticwebassets\\img\\icons\\payment.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\svg\\10-credit-card.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\svg\\10-credit-card.svg",
       "PackagePath": "staticwebassets\\img\\icons\\svg\\10-credit-card.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\svg\\11-gift-card.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\svg\\11-gift-card.svg",
       "PackagePath": "staticwebassets\\img\\icons\\svg\\11-gift-card.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\svg\\8-trolley.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\svg\\8-trolley.svg",
       "PackagePath": "staticwebassets\\img\\icons\\svg\\8-trolley.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\svg\\9-money.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\icons\\svg\\9-money.svg",
       "PackagePath": "staticwebassets\\img\\icons\\svg\\9-money.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\img-slide\\11.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\img-slide\\11.jpg",
       "PackagePath": "staticwebassets\\img\\img-slide\\11.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\img-slide\\12.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\img-slide\\12.jpg",
       "PackagePath": "staticwebassets\\img\\img-slide\\12.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\img-slide\\13.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\img-slide\\13.jpg",
       "PackagePath": "staticwebassets\\img\\img-slide\\13.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\logo-2.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\logo-2.png",
       "PackagePath": "staticwebassets\\img\\logo-2.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\logo-3.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\logo-3.png",
       "PackagePath": "staticwebassets\\img\\logo-3.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\logo.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\others\\1.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\others\\1.png",
       "PackagePath": "staticwebassets\\img\\others\\1.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\others\\100.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\others\\100.jpg",
       "PackagePath": "staticwebassets\\img\\others\\100.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\others\\9.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\others\\9.png",
       "PackagePath": "staticwebassets\\img\\others\\9.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\others\\error-1.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\others\\error-1.png",
       "PackagePath": "staticwebassets\\img\\others\\error-1.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\1.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\1.png",
       "PackagePath": "staticwebassets\\img\\product-2\\1.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\10.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\10.png",
       "PackagePath": "staticwebassets\\img\\product-2\\10.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\11.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\11.png",
       "PackagePath": "staticwebassets\\img\\product-2\\11.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\12.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\12.png",
       "PackagePath": "staticwebassets\\img\\product-2\\12.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\2.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\2.png",
       "PackagePath": "staticwebassets\\img\\product-2\\2.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\3.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\3.png",
       "PackagePath": "staticwebassets\\img\\product-2\\3.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\4.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\4.png",
       "PackagePath": "staticwebassets\\img\\product-2\\4.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\5.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\5.png",
       "PackagePath": "staticwebassets\\img\\product-2\\5.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\6.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\6.png",
       "PackagePath": "staticwebassets\\img\\product-2\\6.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\7.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\7.png",
       "PackagePath": "staticwebassets\\img\\product-2\\7.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\8.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\8.png",
       "PackagePath": "staticwebassets\\img\\product-2\\8.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\9.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product-2\\9.png",
       "PackagePath": "staticwebassets\\img\\product-2\\9.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\1.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\1.png",
       "PackagePath": "staticwebassets\\img\\product\\1.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\10.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\10.png",
       "PackagePath": "staticwebassets\\img\\product\\10.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\11.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\11.png",
       "PackagePath": "staticwebassets\\img\\product\\11.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\12.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\12.png",
       "PackagePath": "staticwebassets\\img\\product\\12.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\2.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\2.png",
       "PackagePath": "staticwebassets\\img\\product\\2.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\3.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\3.png",
       "PackagePath": "staticwebassets\\img\\product\\3.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\4.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\4.png",
       "PackagePath": "staticwebassets\\img\\product\\4.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\5.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\5.png",
       "PackagePath": "staticwebassets\\img\\product\\5.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\6.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\6.png",
       "PackagePath": "staticwebassets\\img\\product\\6.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\7.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\7.png",
       "PackagePath": "staticwebassets\\img\\product\\7.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\8.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\8.png",
       "PackagePath": "staticwebassets\\img\\product\\8.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\product\\9.png",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\product\\9.png",
       "PackagePath": "staticwebassets\\img\\product\\9.png"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\service\\11.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\service\\11.jpg",
       "PackagePath": "staticwebassets\\img\\service\\11.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\service\\21.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\service\\21.jpg",
       "PackagePath": "staticwebassets\\img\\service\\21.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\service\\22.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\service\\22.jpg",
       "PackagePath": "staticwebassets\\img\\service\\22.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\service\\31.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\service\\31.jpg",
       "PackagePath": "staticwebassets\\img\\service\\31.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\service\\32.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\service\\32.jpg",
       "PackagePath": "staticwebassets\\img\\service\\32.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\service\\33.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\service\\33.jpg",
       "PackagePath": "staticwebassets\\img\\service\\33.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\service\\34.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\service\\34.jpg",
       "PackagePath": "staticwebassets\\img\\service\\34.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\1.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\11.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\11.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\11.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\12.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\12.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\12.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\13.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\13.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\13.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\2.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\61.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\61.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\61.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\62.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\62.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\62.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\71.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\slider\\71.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\71.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\team\\1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\team\\1.jpg",
       "PackagePath": "staticwebassets\\img\\team\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\team\\2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\team\\2.jpg",
       "PackagePath": "staticwebassets\\img\\team\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\team\\3.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\team\\3.jpg",
       "PackagePath": "staticwebassets\\img\\team\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\team\\4.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\team\\4.jpg",
       "PackagePath": "staticwebassets\\img\\team\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\team\\5.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\team\\5.jpg",
       "PackagePath": "staticwebassets\\img\\team\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\team\\6.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\team\\6.jpg",
       "PackagePath": "staticwebassets\\img\\team\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\team\\7.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\team\\7.jpg",
       "PackagePath": "staticwebassets\\img\\team\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\team\\8.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\team\\8.jpg",
       "PackagePath": "staticwebassets\\img\\team\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\1.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\1.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\2.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\2.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\3.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\3.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\4.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\4.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\5.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\5.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\6.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\6.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\7.jpg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\img\\testimonial\\7.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\js\\contact.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\js\\contact.js",
       "PackagePath": "staticwebassets\\js\\contact.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\js\\main.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\js\\maplace-active.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\js\\maplace-active.js",
       "PackagePath": "staticwebassets\\js\\maplace-active.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\js\\plugins.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\js\\plugins.js",
       "PackagePath": "staticwebassets\\js\\plugins.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\js\\site.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\media\\1.mp4",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\media\\1.mp4",
       "PackagePath": "staticwebassets\\media\\1.mp4"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400d41d.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400d41d.eot",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400.svg",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400d41d.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-regular-400d41d.eot",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400d41d.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900.svg",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\Wunhh\\Desktop\\.net core\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900d41d.eot",
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-solid-900d41d.eot",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900d41d.eot"
     },
     {

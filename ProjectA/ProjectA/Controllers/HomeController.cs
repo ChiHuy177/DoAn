@@ -35,6 +35,15 @@ namespace ProjectA.Controllers
         {
             return View("ServiceDetails");
         }
+        public IActionResult Cart()
+        {
+            return View("Cart");
+        }
+        public IActionResult Account()
+        {
+            return View("Account");
+        }
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

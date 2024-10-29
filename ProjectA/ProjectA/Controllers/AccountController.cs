@@ -12,5 +12,9 @@ namespace ProjectA.Controllers
         {
             return View("Register");
         }
+        public IActionResult Account()
+        {
+            return View("Account");
+        }
     }
 }
