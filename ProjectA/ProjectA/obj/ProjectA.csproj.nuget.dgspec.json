@@ -49,6 +49,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             }
           },
           "imports": [

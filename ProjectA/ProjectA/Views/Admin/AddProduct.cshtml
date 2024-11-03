@@ -1,0 +1,161 @@
+﻿
+@{
+    ViewData["Title"] = "AddProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="page-wrapper">
+    <div class="page-content-tab">
+        <form>
+            <div class="row">
+
+                <div class="col-lg-8 col-xxl-9">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="app-product-section">
+                                <div class="main-title">
+                                    <h6>General Information</h6>
+                                </div>
+                                <div>
+                                    <form class="app-form">
+                                        <div class="mb-3">
+                                            <label class="form-label">Product Title</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Brand Name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Product Description</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="app-divider-v dashed"></div>
+
+
+
+
+
+                                <div class="app-divider-v dashed"></div>
+
+                                <div class="main-title">
+                                    <h6>Inventory</h6>
+                                </div>
+
+                                <div>
+                                    <form class="app-form">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="mb-3">
+                                                    <label class="form-label">SKU(Optional)</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Product ID</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-3">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Quantity</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="app-divider-v dashed"></div>
+
+
+
+
+                                <div class="col-12">
+                                    <div class="mt-4 d-flex justify-content-end gap-2 flex-column flex-sm-row text-end">
+                                        <button type="button" class="btn btn-light-secondary">Discard</button>
+                                        <button class="btn btn-primary" type="submit">Add Product</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xxl-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="app-product-section">
+                                <div class="main-title">
+                                    <h6>Product Media</h6>
+                                </div>
+
+                                <div>
+                                    <input class="app-file-upload addproduct" type="file" id="addProduct" multiple="multiple" data-allow-reorder="true">
+                                </div>
+                                <div class="app-divider-v dashed"></div>
+                                <div class="main-title">
+                                    <h6>Pricing</h6>
+                                </div>
+
+                                <form class="app-form">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Price</label>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text b-r-left" id="basic-addon1">$</span>
+                                                    <input type="text" class="form-control b-r-right" aria-label="Username"
+                                                           aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Discount(%)</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="app-divider-v dashed"></div>
+
+
+
+                                <div class="app-divider-v dashed"></div>
+
+                                <div class="main-title">
+                                    <h6>Visibility</h6>
+                                </div>
+
+
+
+                                <form class="app-form mt-4  ">
+                                    <div class="mb-3">
+                                        <label class="form-label">Publish Date</label>
+                                        <input type="text" class="form-control">
+                                        <div class="form-text">The category will not be visible until the specified date.</div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+        
+    </div>
+   
+    
+</div>
+
+

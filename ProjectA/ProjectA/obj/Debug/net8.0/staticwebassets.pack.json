@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\assets\\css\\icons.min.css"
     },
     {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
     },
@@ -525,8 +533,16 @@
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-9.jpg"
     },
     {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\addProduct.js",
+      "PackagePath": "staticwebassets\\assets\\js\\addProduct.js"
+    },
+    {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\app.js",
       "PackagePath": "staticwebassets\\assets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\jquery-3.6.3.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.6.3.min.js"
     },
     {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\analytics-customers.init.js",
@@ -919,6 +935,14 @@
     {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\uppy\\uppy.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\uppy\\uppy.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\vendor\\trumbowyg\\trumbowyg.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\trumbowyg\\trumbowyg.min.css"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\vendor\\trumbowyg\\trumbowyg.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\trumbowyg\\trumbowyg.min.js"
     },
     {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\css\\font-icons.css",

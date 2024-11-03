@@ -1,5 +1,6 @@
-using Microsoft.Extensions.FileProviders;
 
+using Microsoft.EntityFrameworkCore;
+using ProjectA.Data;
 namespace ProjectA
 {
     public class Program
@@ -10,6 +11,10 @@ namespace ProjectA
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            // Add DbContext
+            builder.Services.AddDbContext<MyDbContext>(options =>
+                options.UseMySQL(builder.Configuration.GetConnectionString("MySqlConnection")));
+
 
             var app = builder.Build();
 
@@ -35,4 +40,5 @@ namespace ProjectA
             app.Run();
         }
     }
+    
 }
