@@ -1,4 +1,5 @@
 
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using ProjectA.Data;
 namespace ProjectA
@@ -14,7 +15,12 @@ namespace ProjectA
             // Add DbContext
             builder.Services.AddDbContext<MyDbContext>(options =>
                 options.UseMySQL(builder.Configuration.GetConnectionString("MySqlConnection")));
-
+            //Add Authencation
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Admin/Login";
+                });
 
             var app = builder.Build();
 

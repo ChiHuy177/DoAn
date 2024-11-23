@@ -1,3 +1,19 @@
 ﻿.auth-page .auth-header-box {
     background-color: #0A9A73;
 }
+#file-input {
+    display: none;
+}
+
+#img-preview {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(170, 170, 170, 0.2);
+}

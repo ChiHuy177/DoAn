@@ -6,14 +6,14 @@
 
 
     <meta charset="utf-8" />
-    <title>Unikit - Admin & Dashboard Template</title>
+    <title>Health-care Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="~/img/favicon.png" type="image/x-icon" />
 
 
 
@@ -23,7 +23,7 @@
     <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="~/assets/css/app.min.css" rel="stylesheet" type="text/css" />
-    
+    <link href="~/assets/css/MyCss.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body id="body" class="dark-sidebar">
@@ -41,24 +41,8 @@
                 </span>
             </a>
         </div>
-        <div class="sidebar-user-pro media border-end">
-            <div class="position-relative mx-auto">
-                <img src="~/assets/images/users/user-4.jpg" alt="user" class="rounded-circle thumb-md">
-                <span class="online-icon position-absolute end-0"><i class="mdi mdi-record text-success"></i></span>
-            </div>
-            <div class="media-body ms-2 user-detail align-self-center">
-                <h5 class="font-14 m-0 fw-bold">Mr. Michael Hill </h5>
-                <p class="opacity-50 mb-0">michael.hill@exemple.com</p>
-            </div>
-        </div>
-        <div class="border-end">
-            <ul class="nav nav-tabs menu-tab nav-justified" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" data-bs-toggle="tab" href="#Main" role="tab" aria-selected="true">M<span>ain</span></a>
-                </li>
-
-            </ul>
-        </div>
+        
+       
         <!-- Tab panes -->
         <!--end logo-->
         <div class="menu-content h-100" data-simplebar>
@@ -66,18 +50,25 @@
                 <div class="collapse navbar-collapse tab-content" id="sidebarCollapse">
                     <!-- Navigation -->
                     <ul class="navbar-nav tab-pane active" id="Main" role="tabpanel">
-                        <li class="menu-label mt-0 text-primary font-12 fw-semibold">M<span>ain</span><br><span class="font-10 text-secondary fw-normal">Unique Dashboard</span></li>
                         <li class="nav-item">
-                            <div id="sidebarAnalytics">
-                                <ul class="nav flex-column">
-                                    <li class="nav-item">
-                                        <a class="nav-link" asp-action="DashBoard" asp-controller="Admin">Dashboard</a>
-                                        <a class="nav-link" asp-action="ProductList" asp-controller="Admin">Product List</a>
-                                    </li><!--end nav-item-->
+                            <a class="nav-link" asp-action="DashBoard" asp-controller="Admin">
+                                <i class="ti ti-stack menu-icon"></i>
+                                <span>Dashboard</span>
+                            </a>
 
-                                </ul>
-                            </div>
                         </li><!--end nav-item-->
+                        <li class="nav-item">
+
+                            <a class="nav-link" asp-action="ProductList" asp-controller="Admin">
+                                <i class="fas fa-clipboard-list menu-icon"></i><span>Product List</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link" asp-action="CategoryList" asp-controller="Admin">
+                                <i class="fas fa-clipboard-list menu-icon"></i><span>Category List</span>
+                            </a>
+                        </li>
                     </ul><!--end nav-->
                 </div><!--end sidebarAnalytics-->
                
@@ -99,10 +90,10 @@
                 <li class="dropdown">
                     <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
                        aria-haspopup="false" aria-expanded="false">
-                        <img src="assets/images/flags/us_flag.jpg" alt="" class="thumb-xxs rounded">
+                        <img src="~/assets/images/flags/us_flag.jpg" alt="" class="thumb-xxs rounded">
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#"><img src="assets/images/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
+                        <a class="dropdown-item" href="#"><img src="~/assets/images/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
                     </div>
                 </li><!--end topbar-language-->
 
@@ -128,7 +119,7 @@
                     <a class="nav-link dropdown-toggle nav-user" data-bs-toggle="dropdown" href="#" role="button"
                        aria-haspopup="false" aria-expanded="false">
                         <div class="d-flex align-items-center">
-                            <img src="assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle me-2 thumb-sm" />
+                            <img src="~/assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle me-2 thumb-sm" />
                             <div>
                                 <small class="d-none d-md-block font-11">Admin</small>
                                 <span class="d-none d-md-block fw-semibold font-12">
@@ -138,10 +129,10 @@
                         </div>
                     </a>
                     <div class="dropdown-menu dropdown-menu-end">
-                        <a class="dropdown-item" href="pages-profile.html"><i class="ti ti-user font-16 me-1 align-text-bottom"></i> Profile</a>
-                        <a class="dropdown-item" href="crypto-settings.html"><i class="ti ti-settings font-16 me-1 align-text-bottom"></i> Settings</a>
+                        <a class="dropdown-item" asp-action="AccountDetails" asp-controller="Admin"><i class="ti ti-user font-16 me-1 align-text-bottom"></i> Profile</a>
+                        
                         <div class="dropdown-divider mb-0"></div>
-                        <a class="dropdown-item" href="auth-login.html"><i class="ti ti-power font-16 me-1 align-text-bottom"></i> Logout</a>
+                        <a class="dropdown-item" asp-action="Logout" asp-controller="Admin"><i class="ti ti-power font-16 me-1 align-text-bottom"></i> Logout</a>
                     </div>
                 </li><!--end topbar-profile-->
                 <li class="notification-list">
@@ -173,10 +164,18 @@
     <script src="~/assets/pages/ecommerce-index.init.js"></script>
     <script src="~/assets/pages/analytics-index.init.js"></script>
     <!-- App js -->
+    <script src="assets/plugins/tobii/tobii.min.js"></script>
     <script src="~/assets/js/jquery-3.6.3.min.js"></script>
     <script src="~/assets/js/app.js"></script>
     <script src="~/assets/vendor/trumbowyg/trumbowyg.min.js"></script>
     <script src="~/assets/js/addProduct.js"></script>
+    <script src="~/assets/js/myscript.js"></script>
+ 
+    
+    <script>
+        const tobii = new Tobii()
+    </script>
+    
 </body>
 <!--end body-->
 <!-- Mirrored from mannatthemes.com/unikit/default/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Oct 2024 02:48:40 GMT -->

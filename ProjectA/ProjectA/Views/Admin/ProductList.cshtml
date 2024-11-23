@@ -31,10 +31,9 @@
                                         <tr>
                                             <th>Product Name</th>
                                             <th>Category</th>
-                                            <th>Quantity</th>
-                                            <th>Price</th>
-                                            <th>Status</th>
-
+                                            <th>In stock</th>
+                                            <th>Price (vnd)</th>
+                                            <th>Unit</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -44,24 +43,23 @@
                                         {
                                             <tr>
                                                 <td>
-                                                    <img src="~/assets/images/products/04.png" alt="" height="40">
+                                                    <img src="~/uploadImages/@item.Product.Image" alt="" height="40">
                                                     <p class="d-inline-block align-middle mb-0">
-                                                        <a href="#" class="d-inline-block align-middle mb-0 product-name fw-semibold">@item.ProductName</a>  
+                                                        <a href="#" class="d-inline-block align-middle mb-0 product-name fw-semibold">@item.Product.Name</a>
                                                     </p>
                                                 </td>
-                                                <td>@item.Category</td>
-                                                <td>@item.Quantity</td>
-                                                <td>@item.Price</td>
-                                                <td><span class="badge badge-soft-purple">@item.Status</span></td>
+                                                <td>@item.Category.Name</td>
+                                                <td>@item.Product.InStock</td>
+                                                <td>@item.Product.Price</td>
+                                                <td><span class="badge badge-soft-purple">@item.Product.Unit</span></td>
 
                                                 <td>
-                                                    <a href="#" class="mr-2"><i class="las la-pen text-secondary font-16"></i></a>
-                                                    <a href="#"><i class="las la-trash-alt text-secondary font-16"></i></a>
+                                                    <a onclick="editItem(@item.Product.Id)" class="mr-2"><i class="las la-pen text-secondary font-16"></i></a>
+                                                    <a onclick="deleteItem(@item.Product.Id)"><i class="las la-trash-alt text-secondary font-16"></i></a>
                                                 </td>
                                             </tr>
                                         }
                                         
-
                                     </tbody>
                                 </table>
                             </div>

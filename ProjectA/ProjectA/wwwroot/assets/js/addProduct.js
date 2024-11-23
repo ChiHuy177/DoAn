@@ -23,3 +23,4 @@ const pondInput = FilePond.create(
         labelIdle: `<i class="fa-solid fa-cloud-upload fa-fw fs-4"></i> <div class="filepond--label-action text-decoration-none">Upload Your Product Images</div>`,
     }
 );
+    

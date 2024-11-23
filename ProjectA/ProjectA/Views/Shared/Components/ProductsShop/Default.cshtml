@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ProductModel>
+
+@foreach (var item in Model)
+{
+    <!-- ltn__product-item -->
+    <div class="col-xl-3 col-sm-6 col-6">
+        <div class="ltn__product-item ltn__product-item-3 text-center">
+            <div class="product-img">
+                <a asp-action="ProductDetails" asp-controller="Home" asp-route-Id="@item.Id"><img src="~/uploadImages/@item.Image"></a>
+                <div class="product-badge">
+                    <ul>
+                        <li class="sale-badge">New</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="product-info">
+
+                <h2 class="product-title"><a asp-action="ProductDetails" asp-controller="Home" asp-route-Id="@item.Id">@item.Name</a></h2>
+                <div class="product-price">
+                    <span>@item.Price.ToString("#,##0")<span>vnd / </span>@item.Unit</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

@@ -1,0 +1,16 @@
+﻿@model IEnumerable<ProductModel>
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            <img src="~/uploadImages/@item.Image" alt="" height="40">
+            <p class="d-inline-block align-middle mb-0">
+                <a asp-action="Edit" asp-controller="Admin" asp-route-Id="@item.Id" class="d-inline-block align-middle mb-0 product-name fw-semibold">@item.Name</a>
+            </p>
+        </td>
+        <td>@item.InStock</td>
+        <td>@item.Price</td>
+        <td><span class="badge badge-soft-purple">@item.Unit</span></td>
+
+    </tr>
+}

@@ -9,6 +9,12 @@ namespace ProjectA.Data
         {
         }
 
-        public DbSet<Product> Products { get; set; }
+        //public DbSet<Product> Products { get; set; }
+        public DbSet<ProductModel> Products { get; set; }
+        public DbSet<AddressModel> Addresses { get; set; }
+        public DbSet<CategoryModel> Categories { get; set; }
+        public DbSet<ClientModel> Clients { get; set; }
+        public DbSet<OrderDetailsModel> OrderDetails { get; set; }
+        public DbSet<OrderModel> Orders { get; set; }
     }
 }

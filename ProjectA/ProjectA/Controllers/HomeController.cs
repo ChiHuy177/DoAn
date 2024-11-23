@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using ProjectA.Data;
 using ProjectA.Models;
+using ProjectA.Models.ViewModels;
 using System.Diagnostics;
 
 namespace ProjectA.Controllers
@@ -7,10 +9,12 @@ namespace ProjectA.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly MyDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, MyDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -23,13 +27,34 @@ namespace ProjectA.Controllers
         }
         public IActionResult Shop()
         {
-            return View("Shop");
+            var products = _context.Products.ToList();
+            return View(products);
         }
 
-        public IActionResult ProductDetails()
+        //public IActionResult ProductDetails()
+        //{
+        //    return View("ProductDetails");
+        //}
+        public IActionResult ProductDetails(int Id)
         {
-            return View("ProductDetails");
+            
+            var productID = _context.Products.Where(p => p.Id == Id).FirstOrDefault();
+            var productCategoryId = productID.CategoryId;
+            var categoryId = _context.Categories.Where(c => c.Id == productCategoryId).FirstOrDefault();
+            
+            if (productID == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            var viewModel = new ProductDetailsViewModel
+            {
+                Product = productID,
+                Category = categoryId
+            };
+            return View(viewModel);
         }
+
 
         public IActionResult ServiceDetails()
         {

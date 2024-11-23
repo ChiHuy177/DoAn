@@ -1,0 +1,216 @@
+﻿
+@{
+    ViewData["Title"] = "AccountDetails";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var user = ViewBag.User as ProjectA.Models.ClientModel;
+}
+<div class="page-wrapper">
+
+    <!-- Page Content-->
+    <div class="page-content-tab">
+
+        <div class="container-fluid">
+            <!-- Page-Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title-box">
+          
+                        <h4 class="page-title">Profile</h4>
+                    </div>
+                    <!--end page-title-box-->
+                </div>
+                <!--end col-->
+            </div>
+            <!-- end page title end breadcrumb -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="met-profile">
+                                <div class="row">
+                                    <div class="col-lg-4 align-self-center mb-3 mb-lg-0">
+                                        <div class="met-profile-main">
+                                            <div class="met-profile-main-pic">
+                                                <img src="~/assets/images/users/user-4.jpg" alt="" height="110" class="rounded-circle">
+                                                <span class="met-profile_main-pic-change">
+                                                    <i class="fas fa-camera"></i>
+                                                </span>
+                                            </div>
+                                            <div class="met-profile_user-detail">
+                                                <h5 class="met-user-name">Rosa Dodson</h5>
+                                                
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+
+                                    
+                                    
+                                </div><!--end row-->
+                            </div><!--end f_profile-->
+                        </div><!--end card-body-->
+                        <div class="card-body p-0">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-bs-toggle="tab" href="#Settings" role="tab" aria-selected="true">Settings</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane p-3 active" id="Settings" role="tabpanel">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-xl-6">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <div class="row align-items-center">
+                                                        <div class="col">
+                                                            <h4 class="card-title">Personal Information</h4>
+                                                        </div><!--end col-->
+                                                    </div>  <!--end row-->
+                                                </div><!--end card-header-->
+                                                <div class="card-body">
+                                                    <div class="form-group mb-3 row">
+                                                        <label class="col-xl-3 col-lg-3 text-end mb-lg-0 align-self-center form-label">First Name</label>
+                                                        <div class="col-lg-9 col-xl-8">
+                                                            <input class="form-control" type="text" value="@user.Name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3 row">
+                                                        <label class="col-xl-3 col-lg-3 text-end mb-lg-0 align-self-center form-label">Last Name</label>
+                                                        <div class="col-lg-9 col-xl-8">
+                                                            <input class="form-control" type="text" value="Dodson">
+                                                        </div>
+                                                    </div>
+                                                   
+
+                                                    <div class="form-group mb-3 row">
+                                                        <label class="col-xl-3 col-lg-3 text-end mb-lg-0 align-self-center form-label">Contact Phone</label>
+                                                        <div class="col-lg-9 col-xl-8">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text"><i class="las la-phone"></i></span>
+                                                                <input type="text" class="form-control" value="@user.Phone" placeholder="Phone" aria-describedby="basic-addon1">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3 row">
+                                                        <label class="col-xl-3 col-lg-3 text-end mb-lg-0 align-self-center form-label">Email Address</label>
+                                                        <div class="col-lg-9 col-xl-8">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text"><i class="las la-at"></i></span>
+                                                                <input type="text" class="form-control" value="@user.Phone" placeholder="Email" aria-describedby="basic-addon1">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    <div class="form-group mb-3 row">
+                                                        <div class="col-lg-9 col-xl-8 offset-lg-3">
+                                                            <button type="submit" class="btn btn-de-primary">Submit</button>
+                                                            <button type="button" class="btn btn-de-danger">Cancel</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> <!--end col-->
+                                        <div class="col-lg-6 col-xl-6">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <h4 class="card-title">Change Password</h4>
+                                                </div><!--end card-header-->
+                                                <div class="card-body">
+                                                    <div class="form-group mb-3 row">
+                                                        <label class="col-xl-3 col-lg-3 text-end mb-lg-0 align-self-center form-label">Current Password</label>
+                                                        <div class="col-lg-9 col-xl-8">
+                                                            <input class="form-control" type="password" placeholder="Password">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3 row">
+                                                        <label class="col-xl-3 col-lg-3 text-end mb-lg-0 align-self-center form-label">New Password</label>
+                                                        <div class="col-lg-9 col-xl-8">
+                                                            <input class="form-control" type="password" placeholder="New Password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3 row">
+                                                        <label class="col-xl-3 col-lg-3 text-end mb-lg-0 align-self-center form-label">Confirm Password</label>
+                                                        <div class="col-lg-9 col-xl-8">
+                                                            <input class="form-control" type="password" placeholder="Re-Password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group mb-3 row">
+                                                        <div class="col-lg-9 col-xl-8 offset-lg-3">
+                                                            <button type="submit" class="btn btn-de-primary">Change Password</button>
+                                                            <button type="button" class="btn btn-de-danger">Cancel</button>
+                                                        </div>
+                                                    </div>
+                                                </div><!--end card-body-->
+                                            </div><!--end card-->
+                                     
+                                        </div> <!-- end col -->
+                                    </div><!--end row-->
+                                </div>
+                            </div>
+                        </div> <!--end card-body-->
+                    </div><!--end card-->
+                </div><!--end col-->
+            </div><!--end row-->
+
+        </div><!-- container -->
+        <!--Start Rightbar-->
+        <!--Start Rightbar/offcanvas-->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="Appearance" aria-labelledby="AppearanceLabel">
+            <div class="offcanvas-header border-bottom">
+                <h5 class="m-0 font-14" id="AppearanceLabel">Appearance</h5>
+                <button type="button" class="btn-close text-reset p-0 m-0 align-self-center" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <h6>Account Settings</h6>
+                <div class="p-2 text-start mt-3">
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch1">
+                        <label class="form-check-label" for="settings-switch1">Auto updates</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch2" checked>
+                        <label class="form-check-label" for="settings-switch2">Location Permission</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="settings-switch3">
+                        <label class="form-check-label" for="settings-switch3">Show offline Contacts</label>
+                    </div><!--end form-switch-->
+                </div><!--end /div-->
+                <h6>General Settings</h6>
+                <div class="p-2 text-start mt-3">
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch4">
+                        <label class="form-check-label" for="settings-switch4">Show me Online</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch mb-2">
+                        <input class="form-check-input" type="checkbox" id="settings-switch5" checked>
+                        <label class="form-check-label" for="settings-switch5">Status visible to all</label>
+                    </div><!--end form-switch-->
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="settings-switch6">
+                        <label class="form-check-label" for="settings-switch6">Notifications Popup</label>
+                    </div><!--end form-switch-->
+                </div><!--end /div-->
+            </div><!--end offcanvas-body-->
+        </div>
+        <!--end Rightbar/offcanvas-->
+        <!--end Rightbar-->
+        <!--Start Footer-->
+        <!-- Footer Start -->
+        <footer class="footer text-center text-sm-start">
+            &copy; <script>
+                       document.write(new Date().getFullYear())
+            </script> Unikit <span class="text-muted d-none d-sm-inline-block float-end">
+                Crafted with <i class="mdi mdi-heart text-danger"></i> by Mannatthemes
+            </span>
+        </footer>
+        <!-- end Footer -->
+        <!--end footer-->
+    </div>
+    <!-- end page content -->
+</div>
+
