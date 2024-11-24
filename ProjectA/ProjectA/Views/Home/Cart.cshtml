@@ -1,4 +1,4 @@
-﻿
+﻿@model ProjectA.Models.ViewModels.CartItemViewModel
 @{
     ViewData["Title"] = "Cart";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -34,74 +34,49 @@
                                <thead>
                                 <tr>
                                     <th class="cart-product-remove">Remove</th>
-                                    <th class="cart-product-image">Image</th>
-                                    <th class="cart-product-info">Product</th>
+                                    
+                                    <th class="cart-product-info" colspan="2">Product</th>
                                     <th class="cart-product-price">Price</th>
                                     <th class="cart-product-quantity">Quantity</th>
                                     <th class="cart-product-subtotal">Subtotal</th>
                                 </tr>
-                                  
+                                   
                               </thead> 
                             <tbody>
+                                @if(Model.CartItems.Count > 0)
+                                {
+                                    @foreach(var item in Model.CartItems)
+                                    {
+                                            <tr>
+                                                <td class="cart-product-remove">x</td>
+                                                <td class="cart-product-image">
+                                                    <a href="product-details.html"><img src="~/uploadImages/@item.Image" alt="#"></a>
+                                                </td>
+                                                <td class="cart-product-info">
+                                                    <h4><a href="product-details.html">@item.Name</a></h4>
+                                                </td>
+                                                <td class="cart-product-price">@item.Price.ToString("#,##0")</td>
+                                                <td class="cart-product-quantity">
+                                                    <div class="cart-plus-minus">
+                                                    <input type="text" value="@item.Quantity" name="qtybutton" class="cart-plus-minus-box" id="quantity" data-id="@item.Id">
+                                                    </div>
+                                                </td>
+                                            <td class="cart-product-subtotal">@Model.CartItems.Where(x => x.Id == item.Id).Sum(x => x.Quantity * x.Price).ToString("#,##0")</td>
+                                        </tr>
+                                    }
+                                    
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="5"><h3>Your cart is empty</h3></td>
+                                    </tr>
+                                    
+                                }
                                 <tr>
-                                    <td class="cart-product-remove">x</td>
-                                    <td class="cart-product-image">
-                                        <a href="product-details.html"><img src="img/product/1.png" alt="#"></a>
-                                    </td>
-                                    <td class="cart-product-info">
-                                        <h4><a href="product-details.html">Digital Stethoscope</a></h4>
-                                    </td>
-                                    <td class="cart-product-price">$149.00</td>
-                                    <td class="cart-product-quantity">
-                                        <div class="cart-plus-minus">
-                                            <input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
-                                        </div>
-                                    </td>
-                                    <td class="cart-product-subtotal">$298.00</td>
+                                    <td colspan="6"><a class="btn theme-btn-2 btn-effect-2--" onclick="updateCart()">Update Cart</a></td>
                                 </tr>
-                                <tr>
-                                    <td class="cart-product-remove">x</td>
-                                    <td class="cart-product-image">
-                                        <a href="product-details.html"><img src="img/product/2.png" alt="#"></a>
-                                    </td>
-                                    <td class="cart-product-info">
-                                        <h4><a href="product-details.html">Cosmetic Containers</a></h4>
-                                    </td>
-                                    <td class="cart-product-price">$85.00</td>
-                                    <td class="cart-product-quantity">
-                                        <div class="cart-plus-minus">
-                                            <input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
-                                        </div>
-                                    </td>
-                                    <td class="cart-product-subtotal">$170.00</td>
-                                </tr>
-                                <tr>
-                                    <td class="cart-product-remove">x</td>
-                                    <td class="cart-product-image">
-                                        <a href="product-details.html"><img src="img/product/3.png" alt="#"></a>
-                                    </td>
-                                    <td class="cart-product-info">
-                                        <h4><a href="product-details.html">Antiseptic Spray</a></h4>
-                                    </td>
-                                    <td class="cart-product-price">$75.00</td>
-                                    <td class="cart-product-quantity">
-                                        <div class="cart-plus-minus">
-                                            <input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
-                                        </div>
-                                    </td>
-                                    <td class="cart-product-subtotal">$150.00</td>
-                                </tr>
-                                <tr class="cart-coupon-row">
-                                    <td colspan="6">
-                                        <div class="cart-coupon">
-                                            <input type="text" name="cart-coupon" placeholder="Coupon code">
-                                            <button type="submit" class="btn theme-btn-2 btn-effect-2">Apply Coupon</button>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <button type="submit" class="btn theme-btn-2 btn-effect-2-- disabled">Update Cart</button>
-                                    </td>
-                                </tr>
+                                
                             </tbody>
                         </table>
                     </div>
@@ -111,20 +86,9 @@
                             <tbody>
                                 <tr>
                                     <td>Cart Subtotal</td>
-                                    <td>$618.00</td>
+                                    <td>@Model.GrandTotal.ToString("#,##0")</td>
                                 </tr>
-                                <tr>
-                                    <td>Shipping and Handing</td>
-                                    <td>$15.00</td>
-                                </tr>
-                                <tr>
-                                    <td>Vat</td>
-                                    <td>$00.00</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Order Total</strong></td>
-                                    <td><strong>$633.00</strong></td>
-                                </tr>
+                                
                             </tbody>
                         </table>
                         <div class="btn-wrapper text-right">

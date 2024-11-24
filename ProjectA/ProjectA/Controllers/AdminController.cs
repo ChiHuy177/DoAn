@@ -11,6 +11,7 @@ using ProjectA.Models.ViewModels;
 using System.Security.Claims;
 namespace ProjectA.Controllers
 {
+    [Authorize(AuthenticationSchemes = "AdminScheme")]
     public class AdminController : Controller
     {
         private readonly MyDbContext _context;
@@ -21,6 +22,7 @@ namespace ProjectA.Controllers
             this.webHostEnvironment = webHostEnvironment;   
         }
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View("Login");
@@ -30,6 +32,7 @@ namespace ProjectA.Controllers
 
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login (string username, string password)
         {
             var user = await _context.Clients.SingleOrDefaultAsync(u => u.Username == username && u.Password == password && u.Role == 0);
@@ -40,10 +43,10 @@ namespace ProjectA.Controllers
                 {
                     new Claim (ClaimTypes.Name, user.Username),
                     new Claim (ClaimTypes.NameIdentifier, user.Id.ToString()),
-
+                    new Claim("Admin", "true")
                 };
-                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
+                var claimsIdentity = new ClaimsIdentity(claims, "AdminScheme");
+                await HttpContext.SignInAsync("AdminScheme", new ClaimsPrincipal(claimsIdentity));
                 return RedirectToAction("DashBoard", "Admin");
             }
             ViewBag.Error = "Your username or password is incorrect";
@@ -51,17 +54,20 @@ namespace ProjectA.Controllers
            
         }
         [HttpGet] 
+
         public async Task<IActionResult> Logout() 
         { 
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme); 
             return RedirectToAction("Login", "Admin"); 
         }
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult Register()
         {
             return View();
         }
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Register(RegisterViewModel viewModel)
         {
             
@@ -79,7 +85,7 @@ namespace ProjectA.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction("Login","Admin");
         }
-        [Authorize]
+        
         public IActionResult DashBoard()
         {
             return View("DashBoard");

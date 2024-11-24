@@ -17,10 +17,23 @@ namespace ProjectA
                 options.UseMySQL(builder.Configuration.GetConnectionString("MySqlConnection")));
             //Add Authencation
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
+                .AddCookie("AdminScheme",options =>
                 {
                     options.LoginPath = "/Admin/Login";
-                });
+                })
+            .AddCookie("UserScheme", options =>
+             {
+                 options.LoginPath = "/Account/SignIn";
+             });
+
+            builder.Services.AddDistributedMemoryCache();
+
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
 
             var app = builder.Build();
 
@@ -36,7 +49,9 @@ namespace ProjectA
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseSession();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

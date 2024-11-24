@@ -71,11 +71,12 @@
                                     <ul>
                                         <li>
                                             <div class="cart-plus-minus">
-                                                <input type="text" value="0" name="qtybutton" class="cart-plus-minus-box">
+                                                <input type="text" value="1" name="qtybutton" class="cart-plus-minus-box" id="quantity-@Model.Product.Id">
                                             </div>
                                         </li>
                                         <li>
-                                            <a class="theme-btn-1 btn btn-effect-1" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
+                                            <a class="theme-btn-1 btn btn-effect-1" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal"
+                                               onclick="addToCart(@Model.Product.Id)">
                                                 <i class="fas fa-shopping-cart"></i>
                                                 <span>ADD TO CART</span>
                                             </a>

@@ -1,4 +1,4 @@
-﻿
+﻿@model ProjectA.Models.ClientModel
 @{
     ViewData["Title"] = "Account";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -48,7 +48,7 @@
                                 <div class="tab-content">
                                     <div class="tab-pane fade active show" id="liton_tab_1_1">
                                         <div class="ltn__myaccount-tab-content-inner">
-                                            <p>Hello <strong>UserName</strong> (not <strong>UserName</strong>? <small><a asp-action="SignIn" asp-controller="Account">Log out</a></small> )</p>
+                                            <p>Hello <strong>@Model.Name</strong> (not <strong>@Model.Name</strong>? <small><a asp-action="SignIn" asp-controller="Account">Log out</a></small> )</p>
                                             <p>From your account dashboard you can view your <span>recent orders</span>, manage your <span>shipping and billing addresses</span>, and <span>edit your password and account details</span>.</p>
                                         </div>
                                     </div>
@@ -164,20 +164,21 @@
                                                 <form action="#">
                                                     <div class="row mb-50">
                                                         <div class="col-md-6">
-                                                            <label>First name:</label>
-                                                            <input type="text" name="ltn__name">
+                                                            <label>Name:</label>
+                                                            <input type="text" name="ltn__lastname" value="@Model.Name">
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <label>Last name:</label>
-                                                            <input type="text" name="ltn__lastname">
+                                                            <label>User name:</label>
+                                                            <input type="text" name="ltn__name" value="@Model.Username">
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <label>Display Name:</label>
-                                                            <input type="text" name="ltn__lastname" placeholder="Ethan">
+                                                            <label>Phone number:</label>
+                                                            <input type="text" name="ltn__lastname" value="@Model.Phone">
                                                         </div>
+                                                        
                                                         <div class="col-md-6">
-                                                            <label>Display Email:</label>
-                                                            <input type="email" name="ltn__lastname" placeholder="example@example.com">
+                                                            <label>Email:</label>
+                                                            <input type="email" name="ltn__lastname" value="@Model.Email">
                                                         </div>
                                                     </div>
                                                     <fieldset>
