@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjectA.Data;
 
@@ -10,9 +11,11 @@ using ProjectA.Data;
 namespace ProjectA.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241125011854_updateOdermodel1")]
+    partial class updateOdermodel1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -160,10 +163,6 @@ namespace ProjectA.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("AddressId")
-                        .HasMaxLength(255)
-                        .HasColumnType("int");
-
                     b.Property<int>("ClientId")
                         .HasColumnType("int");
 
@@ -184,8 +183,6 @@ namespace ProjectA.Migrations
                         .HasColumnType("decimal(15,2)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AddressId");
 
                     b.HasIndex("ClientId");
 
@@ -269,19 +266,11 @@ namespace ProjectA.Migrations
 
             modelBuilder.Entity("ProjectA.Models.OrderModel", b =>
                 {
-                    b.HasOne("ProjectA.Models.AddressModel", "Address")
-                        .WithMany()
-                        .HasForeignKey("AddressId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("ProjectA.Models.ClientModel", "Client")
                         .WithMany()
                         .HasForeignKey("ClientId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Address");
 
                     b.Navigation("Client");
                 });

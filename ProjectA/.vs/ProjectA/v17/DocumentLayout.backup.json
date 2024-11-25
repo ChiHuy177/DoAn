@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "D:\\GitHub\\DoAn\\ProjectA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\wwwroot\\assets\\js\\myscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\wwwroot\\assets\\js\\myscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\shared\\_cartpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\shared\\_cartpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\account\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\account\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,42 +34,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cart.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Home\\Cart.cshtml",
-              "RelativeDocumentMoniker": "ProjectA\\Views\\Home\\Cart.cshtml",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Home\\Cart.cshtml",
-              "RelativeToolTip": "ProjectA\\Views\\Home\\Cart.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T14:04:39.748Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ProjectA\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ProjectA\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAkwIMAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "ProjectA\\Models\\OrderModel.cs",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\OrderModel.cs",
+              "RelativeToolTip": "ProjectA\\Models\\OrderModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T13:42:51.104Z",
+              "WhenOpened": "2024-11-25T01:56:04.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "AddressModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\AddressModel.cs",
+              "RelativeDocumentMoniker": "ProjectA\\Models\\AddressModel.cs",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\AddressModel.cs",
+              "RelativeToolTip": "ProjectA\\Models\\AddressModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwBcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T01:35:39.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckOut.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Account\\CheckOut.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\Account\\CheckOut.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Account\\CheckOut.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\Account\\CheckOut.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAwFoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T00:53:15.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T14:18:46.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "myscript.js",
               "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\myscript.js",
               "RelativeDocumentMoniker": "ProjectA\\wwwroot\\assets\\js\\myscript.js",
@@ -86,51 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_CartPartial.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Shared\\_CartPartial.cshtml",
-              "RelativeDocumentMoniker": "ProjectA\\Views\\Shared\\_CartPartial.cshtml",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Shared\\_CartPartial.cshtml",
-              "RelativeToolTip": "ProjectA\\Views\\Shared\\_CartPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T09:50:23.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartItemViewModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\ViewModels\\CartItemViewModel.cs",
-              "RelativeDocumentMoniker": "ProjectA\\Models\\ViewModels\\CartItemViewModel.cs",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\ViewModels\\CartItemViewModel.cs",
-              "RelativeToolTip": "ProjectA\\Models\\ViewModels\\CartItemViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T09:46:34.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "ProjectA\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "ProjectA\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T06:04:29.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ProjectA\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ProjectA\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAcwFoAAAAWAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "ProjectA\\Controllers\\AccountController.cs*",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAowJAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T06:04:08.233Z",
               "EditorCaption": ""

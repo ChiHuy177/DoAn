@@ -109,8 +109,14 @@ namespace ProjectA.Controllers
             return View(list);
         }
         [Authorize]
-        public IActionResult AddProduct()
+        public async Task<IActionResult> AddProductAsync()
         {
+            var categories = await _context
+                .Categories
+                .Where(c => c.ParentID != -1)
+                .Select(c => new CategoryModel { Id = c.Id, Name = c.Name })
+                .ToListAsync();
+            ViewBag.Categories = categories;
             return View("AddProduct");
         }
         [Authorize]
@@ -130,7 +136,7 @@ namespace ProjectA.Controllers
         [Authorize]
         public async Task<IActionResult> AddProduct(AddProductViewModel viewModel)
         {
-            Console.WriteLine(viewModel.Name);
+            
             string currentDate = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss_fff");
             String fileName = "";
             if (viewModel.Image != null)

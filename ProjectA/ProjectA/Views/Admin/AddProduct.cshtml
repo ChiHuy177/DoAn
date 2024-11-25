@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "AddProduct";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
-    
+    var categories = ViewBag.Categories as IEnumerable<ProjectA.Models.CategoryModel>;
 }
 
 <div class="page-wrapper">
@@ -25,9 +25,18 @@
                                             <label class="form-label">Product Name</label>
                                             <input type="text" class="form-control" asp-for="Name">
                                         </div>
-                                        <div class="mb-3">
-                                            <label class="form-label">Category ID</label>
-                                            <input type="text" class="form-control" asp-for="CategoryId">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <label class="input-group-text" for="inputGroupSelect01">Category name</label>
+                                            </div>
+                                            <select class="custom-select" id="inputGroupSelect01" asp-for="CategoryId">
+
+                                                @foreach (var item in categories)
+                                                {
+                                                    <option value="@item.Id">@item.Name</option>
+                                                }
+
+                                            </select>
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Product Short Description</label>

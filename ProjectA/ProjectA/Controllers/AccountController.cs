@@ -88,8 +88,66 @@ namespace ProjectA.Controllers
         [Authorize(AuthenticationSchemes = "UserScheme")]
         public IActionResult CheckOut()
         {
-            return View(); 
+            var cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+            CartItemViewModel cartVM = new CartItemViewModel()
+            {
+                CartItems = cart,
+                GrandTotal = cart.Sum(x => x.Quantity * x.Price),
+            };
+            return View(cartVM); 
         }
+        [Authorize(AuthenticationSchemes = "UserScheme")]
+        [HttpPost]
+        public IActionResult PlaceOrder(OrderViewModel order)
+        {
+            var nameIdentifier = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+            if (cart.Count() > 0) {
+                if (nameIdentifier != null)
+                {
 
-    }
+                    AddressModel address = new AddressModel()
+                    {
+                        ClientId = int.Parse(nameIdentifier),
+                        Ward = order.Ward,
+                        District = order.District,
+                        Province = order.Province,
+                        Street = order.Street,
+                        AddressType = AddressType.home,
+                        Default = true
+
+                    };
+                    _context.Addresses.Add(address);
+                    _context.SaveChanges();
+                    var addressId = address.Id;
+                    OrderModel orderModel = new OrderModel()
+                    {
+                        ClientId = int.Parse(nameIdentifier),
+                        AddressId = addressId,
+                        OrderDate = DateTime.Now,
+                        TotalValue = cart.Sum(x => x.Quantity * x.Price),
+                        Note = order.OrderNotes,
+                        PaymentMethod = order.PaymentMethod,
+                    };
+                    _context.Orders.Add(orderModel);
+                    _context.SaveChanges();
+                    var oderId = orderModel.Id;
+                    foreach (var item in cart)
+                    {
+                        OrderDetailsModel details = new OrderDetailsModel()
+                        {
+                            OrderId = oderId,
+                            ProductId = item.Id,
+                            Quantity = item.Quantity,
+                            Price = item.Price,
+                        };
+                        _context.OrderDetails.Add(details);
+                        _context.SaveChanges();
+                    }
+                }
+            }
+            
+           
+          return Ok(new { Message = "Order placed successfully!" }); }
+        }
 }

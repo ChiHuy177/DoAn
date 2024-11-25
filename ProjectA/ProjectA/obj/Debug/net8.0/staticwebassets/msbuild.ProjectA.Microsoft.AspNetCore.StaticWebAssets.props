@@ -7776,6 +7776,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product1_2024-11-19_09-59-47_261_Screenshot 2023-12-31 110323.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Siro Brauer Baby Kids D3+k2 High Potency MK-7 Drops 10ml_2024-11-24_21-24-11_295_DSC_04996_7d25dc3860.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProjectA</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProjectA</BasePath>
+      <RelativePath>uploadImages/Siro Brauer Baby Kids D3+k2 High Potency MK-7 Drops 10ml_2024-11-24_21-24-11_295_DSC_04996_7d25dc3860.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Siro Brauer Baby Kids D3+k2 High Potency MK-7 Drops 10ml_2024-11-24_21-24-11_295_DSC_04996_7d25dc3860.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Siro ống uống Canxi-D3-K2 5ml Kingphar_2024-11-24_21-21-44_727_DSC_04874_6c29236c37.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProjectA</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProjectA</BasePath>
+      <RelativePath>uploadImages/Siro ống uống Canxi-D3-K2 5ml Kingphar_2024-11-24_21-21-44_727_DSC_04874_6c29236c37.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Siro ống uống Canxi-D3-K2 5ml Kingphar_2024-11-24_21-21-44_727_DSC_04874_6c29236c37.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\_2024-11-19_08-56-57_Screenshot 2023-12-24 210225.png))">
       <SourceType>Package</SourceType>
       <SourceId>ProjectA</SourceId>

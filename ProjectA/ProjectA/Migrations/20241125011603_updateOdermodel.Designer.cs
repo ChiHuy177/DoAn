@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjectA.Data;
 
@@ -10,9 +11,11 @@ using ProjectA.Data;
 namespace ProjectA.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241125011603_updateOdermodel")]
+    partial class updateOdermodel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -160,8 +163,12 @@ namespace ProjectA.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("AddressId")
+                    b.Property<string>("AddressId")
+                        .IsRequired()
                         .HasMaxLength(255)
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<int>("AddressId1")
                         .HasColumnType("int");
 
                     b.Property<int>("ClientId")
@@ -185,7 +192,7 @@ namespace ProjectA.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AddressId");
+                    b.HasIndex("AddressId1");
 
                     b.HasIndex("ClientId");
 
@@ -271,7 +278,7 @@ namespace ProjectA.Migrations
                 {
                     b.HasOne("ProjectA.Models.AddressModel", "Address")
                         .WithMany()
-                        .HasForeignKey("AddressId")
+                        .HasForeignKey("AddressId1")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
