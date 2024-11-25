@@ -1,3 +1,7 @@
 ﻿.mini-cart-footer .btn-wrapper .btn{
     width: 100%;
 }
+.main-title {
+    font-weight: 600;
+    text-transform: capitalize;
+}

@@ -1,0 +1,15 @@
+﻿@model IEnumerable<CategoryModel>
+
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <label class="input-group-text" for="inputGroupSelect01">Category name</label>
+    </div>
+    <select class="custom-select" id="inputGroupSelect01">
+        
+        @foreach (var item in Model)
+        {
+            <option value="@item.Id" name="CategoryId">@item.Name</option>
+        }
+        
+    </select>
+</div>

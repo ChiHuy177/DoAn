@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\assets\\css\\icons.min.css"
     },
     {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
     },
@@ -525,8 +533,20 @@
       "PackagePath": "staticwebassets\\assets\\images\\users\\user-9.jpg"
     },
     {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\addProduct.js",
+      "PackagePath": "staticwebassets\\assets\\js\\addProduct.js"
+    },
+    {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\app.js",
       "PackagePath": "staticwebassets\\assets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\jquery-3.6.3.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.6.3.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\myscript.js",
+      "PackagePath": "staticwebassets\\assets\\js\\myscript.js"
     },
     {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\pages\\analytics-customers.init.js",
@@ -919,6 +939,14 @@
     {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\plugins\\uppy\\uppy.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\uppy\\uppy.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\vendor\\trumbowyg\\trumbowyg.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\trumbowyg\\trumbowyg.min.css"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\vendor\\trumbowyg\\trumbowyg.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\trumbowyg\\trumbowyg.min.js"
     },
     {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\css\\font-icons.css",
@@ -1843,6 +1871,98 @@
     {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\media\\1.mp4",
       "PackagePath": "staticwebassets\\media\\1.mp4"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Cetirizine 10mg Longevity medicine_2024-11-20_12-31-30_137_00033571_cetirizin_10mg_truong_tho_10x10_7980_622e_large_7b5a214e24.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Cetirizine 10mg Longevity medicine_2024-11-20_12-31-30_137_00033571_cetirizin_10mg_truong_tho_10x10_7980_622e_large_7b5a214e24.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Cetirizine 10mg Longevity medicine_2024-11-20_12-31-43_070_00033571_cetirizin_10mg_truong_tho_10x10_7980_622e_large_7b5a214e24.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Cetirizine 10mg Longevity medicine_2024-11-20_12-31-43_070_00033571_cetirizin_10mg_truong_tho_10x10_7980_622e_large_7b5a214e24.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Exopadin 60mg Truong Tho_2024-11-20_12-16-55_394_IMG_0238_fc19904162.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Exopadin 60mg Truong Tho_2024-11-20_12-16-55_394_IMG_0238_fc19904162.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Exopadin 60mg Truong Tho_2024-11-20_12-17-14_743_IMG_0238_fc19904162.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Exopadin 60mg Truong Tho_2024-11-20_12-17-14_743_IMG_0238_fc19904162.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Exopadin 60mg Truong Tho_2024-11-20_12-17-30_511_IMG_0238_fc19904162.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Exopadin 60mg Truong Tho_2024-11-20_12-17-30_511_IMG_0238_fc19904162.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Exopadin 60mg Truong Tho_2024-11-20_12-17-59_939_IMG_0238_fc19904162.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Exopadin 60mg Truong Tho_2024-11-20_12-17-59_939_IMG_0238_fc19904162.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Exopadin 60mg Truong Tho_2024-11-20_12-23-41_783_IMG_0238_fc19904162.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Exopadin 60mg Truong Tho_2024-11-20_12-23-41_783_IMG_0238_fc19904162.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Nước Hồng Sâm Cô Đặc Hongsamjin Everystick EX_2024-11-21_10-52-29_822_00033431_hong_sam_co_dac_hongsamjin_everystick_ex_30_goi_x_10g_7158_63ad_large_e84b8401c7.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Nước Hồng Sâm Cô Đặc Hongsamjin Everystick EX_2024-11-21_10-52-29_822_00033431_hong_sam_co_dac_hongsamjin_everystick_ex_30_goi_x_10g_7158_63ad_large_e84b8401c7.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Product112_2024-11-19_10-55-52_098_Screenshot 2023-12-31 110323.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Product112_2024-11-19_10-55-52_098_Screenshot 2023-12-31 110323.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Product11_2024-11-19_10-09-37_034_Screenshot 2024-01-05 220622.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Product11_2024-11-19_10-09-37_034_Screenshot 2024-01-05 220622.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Product11_2024-11-19_10-10-52_143_Screenshot 2024-01-05 220622.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Product11_2024-11-19_10-10-52_143_Screenshot 2024-01-05 220622.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Product11_2024-11-19_10-32-44_413_Screenshot 2023-12-24 210225.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Product11_2024-11-19_10-32-44_413_Screenshot 2023-12-24 210225.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Product11_2024-11-19_10-33-51_491_Screenshot 2023-12-24 210225.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Product11_2024-11-19_10-33-51_491_Screenshot 2023-12-24 210225.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Product1_2024-11-19_09-50-40_151_Screenshot 2023-12-31 110323.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Product1_2024-11-19_09-50-40_151_Screenshot 2023-12-31 110323.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Product1_2024-11-19_09-51-05_882_Screenshot 2023-12-31 110323.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Product1_2024-11-19_09-51-05_882_Screenshot 2023-12-31 110323.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Product1_2024-11-19_09-51-17_988_Screenshot 2023-12-31 110323.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Product1_2024-11-19_09-51-17_988_Screenshot 2023-12-31 110323.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Product1_2024-11-19_09-58-59_451_Screenshot 2023-12-31 110323.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Product1_2024-11-19_09-58-59_451_Screenshot 2023-12-31 110323.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Product1_2024-11-19_09-59-47_261_Screenshot 2023-12-31 110323.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Product1_2024-11-19_09-59-47_261_Screenshot 2023-12-31 110323.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Siro Brauer Baby Kids D3+k2 High Potency MK-7 Drops 10ml_2024-11-24_21-24-11_295_DSC_04996_7d25dc3860.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Siro Brauer Baby Kids D3+k2 High Potency MK-7 Drops 10ml_2024-11-24_21-24-11_295_DSC_04996_7d25dc3860.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Siro ống uống Canxi-D3-K2 5ml Kingphar_2024-11-24_21-21-44_727_DSC_04874_6c29236c37.png",
+      "PackagePath": "staticwebassets\\uploadImages\\Siro ống uống Canxi-D3-K2 5ml Kingphar_2024-11-24_21-21-44_727_DSC_04874_6c29236c37.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\_2024-11-19_08-56-57_Screenshot 2023-12-24 210225.png",
+      "PackagePath": "staticwebassets\\uploadImages\\_2024-11-19_08-56-57_Screenshot 2023-12-24 210225.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\_2024-11-19_11-20-02_453_404.html",
+      "PackagePath": "staticwebassets\\uploadImages\\_2024-11-19_11-20-02_453_404.html"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\_2024-11-19_11-21-08_567_account.html",
+      "PackagePath": "staticwebassets\\uploadImages\\_2024-11-19_11-21-08_567_account.html"
     },
     {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\webfonts\\fa-brands-400.eot",

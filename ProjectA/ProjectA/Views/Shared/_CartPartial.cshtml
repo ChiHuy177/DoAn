@@ -1,0 +1,32 @@
+﻿@model ProjectA.Models.ViewModels.CartItemViewModel
+
+<!-- Utilize Cart Menu Start -->
+
+        
+        @if (Model.CartItems!= null &&  Model.CartItems.Count > 0)
+        {
+            @foreach (var item in Model.CartItems)
+            {
+                <div class="mini-cart-item clearfix">
+                    <div class="mini-cart-img">
+                        <a href="#"><img src="~/uploadImages/@item.Image" alt="Image"></a>
+                        <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
+                    </div>
+                    <div class="mini-cart-info">
+                        <h6><a href="#">@item.Name</a></h6>
+                        <span class="mini-cart-quantity">@item.Quantity x @item.Price.ToString("#,##0")</span>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="mini-cart-item clearfix">
+                <h1>Your cart is empty!</h1>
+            </div>
+            
+        }
+<div class="mini-cart-sub-total">
+    <h5>Subtotal: <span>@Model.GrandTotal.ToString("#,##0")</span></h5>
+</div>
+<!-- Utilize Cart Menu End -->

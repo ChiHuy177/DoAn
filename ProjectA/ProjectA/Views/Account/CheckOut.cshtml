@@ -1,0 +1,145 @@
+﻿@model ProjectA.Models.ViewModels.CartItemViewModel
+@{
+    ViewData["Title"] = "CheckOut";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- BREADCRUMB AREA START -->
+<div class="ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image " data-bs-bg="/img/bg/14.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ltn__breadcrumb-inner">
+                    <h1 class="page-title">Checkout</h1>
+                    <div class="ltn__breadcrumb-list">
+                        <ul>
+                            <li><a asp-action="Index" asp-controller="Home"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</a></li>
+                            <li>Checkout</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- WISHLIST AREA START -->
+<div class="ltn__checkout-area mb-105">
+    <div class="container">
+
+        <form method="post" action="/Account/PlaceOrder">
+            <div class="row">
+            <div class="col-lg-12">
+                <div class="ltn__checkout-inner">
+                    
+                    
+                    <div class="ltn__checkout-single-content mt-50">
+                        <h4 class="title-2">Billing Details</h4>
+                        <div class="ltn__checkout-single-content-info">
+                            
+                                <h6>Please fill in the address</h6>  
+                                <div class="row">
+                                    
+                                    
+                                    <div class="col-lg-4 col-md-6">
+                                        <h6>Ward</h6>
+                                        <div class="input-item">
+                                            <input type="text" placeholder="Ward" name="Ward">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <h6>District </h6>
+                                        <div class="input-item">
+                                            <input type="text" placeholder="District" name="District">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <h6>Province</h6>
+                                        <div class="input-item">
+                                            <input type="text" placeholder="Province" name="Province">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12">
+                                        <h6>Address</h6>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="input-item">
+                                                    <input type="text" placeholder="House number and street name" name="Street">
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h6>Order Notes (optional)</h6>
+                                <div class="input-item input-item-textarea ltn__custom-icon">
+                                    <textarea name="OrderNotes" placeholder="Notes about your order, e.g. special notes for delivery." ></textarea>
+                                </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="ltn__checkout-payment-method mt-50">
+                    <h4 class="title-2">Payment Method</h4>
+                    <div id="checkout_accordion_1">
+
+                            <div class="card"> 
+                                <h5 > 
+                                <input type="radio" name="PaymentMethod" value="Cash"> Cash on delivery 
+                                </h5> 
+                                
+                            </div> 
+                            <!-- card --> 
+                            <div class="card">
+                                <h5>
+                                    <input type="radio" name="PaymentMethod" value="Banking">  Banking
+                                </h5>
+
+                            </div>
+                    </div>
+                    <div class="ltn__payment-note mt-30 mb-30">
+                        <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-6">
+                    <div class="shoping-cart-total mt-50">
+                        <h4 class="title-2">Cart Totals</h4>
+                        <table class="table">
+                            <tbody>
+                                @if (Model.CartItems.Count > 0)
+                                {
+                                    @foreach (var item in Model.CartItems)
+                                    {
+                                        <tr>
+                                            <td>@item.Name<strong>× @item.Quantity</strong></td>
+                                            <td>@item.Price.ToString("#,##0 ")</td>
+                                        </tr>
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="2">Your cart is empty!</td>
+                                    </tr>
+                                }
+                                <tr>
+                                    <td><strong>Oder total:</strong></td>
+                                    <td>@Model.GrandTotal.ToString("#,##0")</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            </div>
+                <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Place order</button>
+            </div>
+            </form>
+            
+        </div>
+    </div>
+
+<!-- WISHLIST AREA START -->

@@ -1,0 +1,9 @@
+﻿.main-title {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.trumbowyg-box {
+    border: 2px dashed rgba(var(--dark), 0.4);
+    border-radius: var(--app-border-radius);
+    overflow: hidden;
+}

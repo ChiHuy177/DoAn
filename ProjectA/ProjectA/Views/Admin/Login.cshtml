@@ -51,15 +51,15 @@
                                     </div>
                                 </div>
                                 <div class="card-body pt-0">
-                                    <form class="my-4" action="https://mannatthemes.com/unikit/default/index.html">
+                                    <form class="my-4" asp-action="Login" method="post">
                                         <div class="form-group mb-2">
                                             <label class="form-label" for="username">Username</label>
-                                            <input type="text" class="form-control" id="username" name="username" placeholder="Enter username">
+                                            <input type="text" class="form-control" id="username" name="username" placeholder="Enter username" required>
                                         </div><!--end form-group-->
 
                                         <div class="form-group">
                                             <label class="form-label" for="userpassword">Password</label>
-                                            <input type="password" class="form-control" name="password" id="userpassword" placeholder="Enter password">
+                                            <input type="password" class="form-control" name="password" id="userpassword" placeholder="Enter password" required>
                                         </div><!--end form-group-->
 
                                         
@@ -67,29 +67,19 @@
                                         <div class="form-group mb-0 row">
                                             <div class="col-12">
                                                 <div class="d-grid mt-3">
-                                                    <button class="btn btn-primary" type="button">Log In <i class="fas fa-sign-in-alt ms-1"></i></button>
+                                                    <button class="btn btn-primary" type="submit">Log In <i class="fas fa-sign-in-alt ms-1"></i></button>
                                                 </div>
                                             </div><!--end col-->
                                         </div> <!--end form-group-->
+                                        @if (ViewBag.Error != null)
+                                        {
+                                            <div class="text-danger"> @ViewBag.Error </div>
+                                        }
                                     </form><!--end form-->
                                     <div class="m-3 text-center text-muted">
-                                        <p class="mb-0">Don't have an account ?  <a href="auth-register.html" class="text-primary ms-2">Free Resister</a></p>
+                                        <p class="mb-0">Don't have an account ?  <a asp-action="Register" asp-controller="Admin" class="text-primary ms-2">Free Resister</a></p>
                                     </div>
-                                    <hr class="hr-dashed mt-4">
-                                    <div class="text-center mt-n5">
-                                        <h6 class="card-bg px-3 my-4 d-inline-block">Or Login With</h6>
-                                    </div>
-                                    <div class="d-flex justify-content-center mb-1">
-                                        <a href="#" class="d-flex justify-content-center align-items-center thumb-sm bg-soft-primary rounded-circle me-2">
-                                            <i class="fab fa-facebook align-self-center"></i>
-                                        </a>
-                                        <a href="#" class="d-flex justify-content-center align-items-center thumb-sm bg-soft-info rounded-circle me-2">
-                                            <i class="fab fa-twitter align-self-center"></i>
-                                        </a>
-                                        <a href="#" class="d-flex justify-content-center align-items-center thumb-sm bg-soft-danger rounded-circle">
-                                            <i class="fab fa-google align-self-center"></i>
-                                        </a>
-                                    </div>
+                                    
                                 </div><!--end card-body-->
                             </div><!--end card-->
                         </div><!--end col-->
