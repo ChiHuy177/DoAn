@@ -1,4 +1,5 @@
 
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using ProjectA.Data;
@@ -33,8 +34,10 @@ namespace ProjectA
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
+                options.Cookie.SecurePolicy = CookieSecurePolicy.Always; 
+                options.Cookie.SameSite = SameSiteMode.Strict;
             });
-
+            builder.Services.AddHttpContextAccessor();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -54,6 +57,7 @@ namespace ProjectA
             app.UseAuthentication();
             app.UseAuthorization();
 
+            
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

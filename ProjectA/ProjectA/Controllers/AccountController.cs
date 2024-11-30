@@ -28,24 +28,45 @@ namespace ProjectA.Controllers
         [HttpPost]
         public async Task<IActionResult> SignIn(string username, string password)
         {
-            var user = await _context.Clients.SingleOrDefaultAsync(u => u.Username == username && u.Password == password && u.Role == 1);
+            var user = await _context.Clients.SingleOrDefaultAsync(u => u.Username == username && u.Password == password);
             if (user != null)
-
-            {
-                var claims = new List<Claim>
+                if(user.Role == 1)
+                {
+                    var claims = new List<Claim>
+                    {
+                        new Claim (ClaimTypes.Name, user.Username),
+                        new Claim (ClaimTypes.NameIdentifier, user.Id.ToString()),
+                        new Claim("User", "true")
+                    };
+                    var claimsIdentity = new ClaimsIdentity(claims, "UserScheme");
+                    await HttpContext.SignInAsync("UserScheme", new ClaimsPrincipal(claimsIdentity));
+                    HttpContext.Session.SetString("IsLoggedIn", "true");
+                    return RedirectToAction("Cart", "Home");
+                }
+                else if (user.Role == 0)
+                {
+                    var claims = new List<Claim>
                 {
                     new Claim (ClaimTypes.Name, user.Username),
                     new Claim (ClaimTypes.NameIdentifier, user.Id.ToString()),
-                    new Claim("User", "true")
+                    new Claim("Admin", "true")
                 };
-                var claimsIdentity = new ClaimsIdentity(claims, "UserScheme");
-                await HttpContext.SignInAsync("UserScheme", new ClaimsPrincipal(claimsIdentity));
-                return RedirectToAction("Cart", "Home");
-            }
+                    var claimsIdentity = new ClaimsIdentity(claims, "AdminScheme");
+                    await HttpContext.SignInAsync("AdminScheme", new ClaimsPrincipal(claimsIdentity));
+                    HttpContext.Session.SetString("IsLoggedIn", "true");
+                    HttpContext.Session.SetString("IsAdmin", "true");
+                    return RedirectToAction("Cart", "Home");
+                }
             ViewBag.Error = "Your username or password is incorrect";
             return View();
         }
-       
+
+        public async Task<IActionResult> Logout() 
+        { 
+            await HttpContext.SignOutAsync("UserScheme"); 
+            return RedirectToAction("Index", "Home"); 
+        }
+
         [HttpGet]
         public IActionResult Register()
         {
@@ -71,21 +92,27 @@ namespace ProjectA.Controllers
             return RedirectToAction("SignIn", "Account");
 
         }
+        [Authorize(AuthenticationSchemes = "AdminScheme")]
         [Authorize(AuthenticationSchemes = "UserScheme")]
-        public IActionResult Account()
+        
+        public async Task<IActionResult> Account()
         {
-            var nameIdentifier = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (nameIdentifier != null) {
-                ClientModel found = _context.Clients.Find(int.Parse(nameIdentifier));
-                if (found!=null)
-                {
-                    return View("Account", found);
-                }
+            var userId = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value;
+            if (userId == null) { 
+                return Unauthorized(); 
             }
-            return View("Account");
+            var client = await _context.Clients.SingleOrDefaultAsync(c => c.Id == int.Parse(userId));
+            var orders = await _context.Orders.Where(o => o.ClientId == int.Parse(userId)).ToListAsync();
+            var viewModel = new AllOrderViewModel 
+            { 
+                Client = client,
+                Orders = orders
+            };
+            return View(viewModel);
 
         }
         [Authorize(AuthenticationSchemes = "UserScheme")]
+        [Authorize(AuthenticationSchemes = "AdminScheme")]
         public IActionResult CheckOut()
         {
             var cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
@@ -96,9 +123,11 @@ namespace ProjectA.Controllers
             };
             return View(cartVM); 
         }
+
         [Authorize(AuthenticationSchemes = "UserScheme")]
+        [Authorize(AuthenticationSchemes = "AdminScheme")]
         [HttpPost]
-        public IActionResult PlaceOrder(OrderViewModel order)
+        public IActionResult PlaceOrder([FromBody] OrderViewModel order)
         {
             var nameIdentifier = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
@@ -134,20 +163,45 @@ namespace ProjectA.Controllers
                     var oderId = orderModel.Id;
                     foreach (var item in cart)
                     {
-                        OrderDetailsModel details = new OrderDetailsModel()
+                        var foundProduct = _context.Products.SingleOrDefault(x => x.Id == item.Id);
+                        if (foundProduct!= null && foundProduct.InStock >= item.Quantity)
                         {
-                            OrderId = oderId,
-                            ProductId = item.Id,
-                            Quantity = item.Quantity,
-                            Price = item.Price,
-                        };
-                        _context.OrderDetails.Add(details);
-                        _context.SaveChanges();
+                            OrderDetailsModel details = new OrderDetailsModel()
+                            {
+                                OrderId = oderId,
+                                ProductId = item.Id,
+                                Quantity = item.Quantity,
+                                Price = item.Price,
+                            };
+                            _context.OrderDetails.Add(details);
+                            _context.SaveChanges();
+                            // tru lai quantity
+                            foundProduct.InStock -= item.Quantity;
+                            _context.SaveChanges();
+                        }
+
+
                     }
                 }
             }
             
            
-          return Ok(new { Message = "Order placed successfully!" }); }
+          return Ok(new { Message = "Order placed successfully!" }); 
         }
+        public async Task<IActionResult> Orders()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var orders = await _context.Orders.Where(o => o.ClientId == int.Parse(userId)).ToListAsync();
+            var viewModel = new AllOrderViewModel
+            {
+                Orders = orders
+            };
+            return View(viewModel);
+        }
+    }
+
+    
+
+
+
 }

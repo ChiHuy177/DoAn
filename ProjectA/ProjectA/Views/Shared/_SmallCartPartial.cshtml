@@ -1,0 +1,25 @@
+﻿@model ProjectA.Models.ViewModels.CartItemViewModel
+
+@if (Model.CartItems != null && Model.CartItems.Count > 0)
+{
+    
+        <span class="mini-cart-icon">
+            <i class="icon-shopping-cart"></i>
+            <sup>@Model.CartItems.Count</sup>
+        </span>
+        <h6>
+            <span>Your Cart</span> <span class="ltn__secondary-color">@Model.GrandTotal.ToString("#,##0")vnd</span>
+        </h6>
+} else
+{
+        <span class="mini-cart-icon">
+            <i class="icon-shopping-cart"></i>
+            <sup>0</sup>
+        </span>
+        <h6>
+            <span>Your Cart</span> <span class="ltn__secondary-color">0vnd</span>
+        </h6>
+    
+    
+}
+

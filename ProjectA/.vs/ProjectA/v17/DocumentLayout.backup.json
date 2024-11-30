@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\GitHub\\DoAn\\ProjectA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\wwwroot\\assets\\js\\myscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\wwwroot\\assets\\js\\myscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\account\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\account\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\home\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\home\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\wwwroot\\assets\\js\\myscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\wwwroot\\assets\\js\\myscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +46,113 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\OrderModel.cs",
-              "RelativeDocumentMoniker": "ProjectA\\Models\\OrderModel.cs",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\OrderModel.cs",
-              "RelativeToolTip": "ProjectA\\Models\\OrderModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:56:04.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddressModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\AddressModel.cs",
-              "RelativeDocumentMoniker": "ProjectA\\Models\\AddressModel.cs",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\AddressModel.cs",
-              "RelativeToolTip": "ProjectA\\Models\\AddressModel.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwBcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:35:39.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CheckOut.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Account\\CheckOut.cshtml",
-              "RelativeDocumentMoniker": "ProjectA\\Views\\Account\\CheckOut.cshtml",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Account\\CheckOut.cshtml",
-              "RelativeToolTip": "ProjectA\\Views\\Account\\CheckOut.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAwFoAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T00:53:15.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Admin\\Edit.cshtml",
               "RelativeDocumentMoniker": "ProjectA\\Views\\Admin\\Edit.cshtml",
               "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Admin\\Edit.cshtml",
               "RelativeToolTip": "ProjectA\\Views\\Admin\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAIwCwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T14:18:46.308Z",
+              "WhenOpened": "2024-11-30T04:45:36.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "myscript.js",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\myscript.js",
-              "RelativeDocumentMoniker": "ProjectA\\wwwroot\\assets\\js\\myscript.js",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\myscript.js",
-              "RelativeToolTip": "ProjectA\\wwwroot\\assets\\js\\myscript.js",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAgwH4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-24T13:42:33.636Z",
+              "DocumentIndex": 3,
+              "Title": "ProductDetails.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Home\\ProductDetails.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\Home\\ProductDetails.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Home\\ProductDetails.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\Home\\ProductDetails.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T04:44:20.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ProjectA\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ProjectA\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T04:26:34.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ProjectA\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AccountController.cs*",
-              "RelativeToolTip": "ProjectA\\Controllers\\AccountController.cs*",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAowJAAAAAvAAAAAAAAAA==",
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Shared\\_AdminLayout.cshtml*",
+              "RelativeToolTip": "ProjectA\\Views\\Shared\\_AdminLayout.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T03:04:30.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\Admin\\AddProduct.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\Admin\\AddProduct.cshtml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAG0AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T04:15:33.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjectA\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjectA\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T06:04:08.233Z",
+              "WhenOpened": "2024-11-28T15:07:44.27Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "4718515a-8975-42e1-bb7b-0255eb7e3261",
+        "Display": 1,
+        "X": 8,
+        "Y": 46,
+        "Width": 1483,
+        "Height": 787,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "myscript.js",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\myscript.js",
+              "RelativeDocumentMoniker": "ProjectA\\wwwroot\\assets\\js\\myscript.js",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\myscript.js",
+              "RelativeToolTip": "ProjectA\\wwwroot\\assets\\js\\myscript.js",
+              "ViewState": "AgIAANUAAAAAAAAAAAAgwLoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-30T04:24:24.308Z",
               "EditorCaption": ""
             }
           ]

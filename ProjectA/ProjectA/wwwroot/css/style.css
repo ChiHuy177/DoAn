@@ -14740,11 +14740,12 @@ blockquote::before {
     Cart plus minus
 ---------------------------------------------------- */
 .cart-plus-minus {
-  border: 2px solid;
-  height: 63px;
-  line-height: 56px;
-  width: 140px;
-  text-align: center;
+    border: 2px solid;
+    height: 63px;
+    line-height: 56px;
+    width: 140px;
+    text-align: center;
+    cursor: pointer
 }
 
 .qtybutton {

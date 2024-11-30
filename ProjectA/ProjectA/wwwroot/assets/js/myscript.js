@@ -90,6 +90,7 @@ function addToCart(productId) {
             success: function ()
             {
                 refreshCart();
+                
             }
         });
     
@@ -97,12 +98,16 @@ function addToCart(productId) {
 function refreshCart()
 {
     $('#cart-partial').load('/Home/GetCartPartial');
+    refreshSmallCart();
 }
 function closeCart() {
     $('#ltn__utilize-cart-menu').hide();
 }
 function openCart() {
     $('#ltn__utilize-cart-menu').show();
+}
+function refreshSmallCart() {
+    $('.mini-cart-icon-partital').load('/Home/GetSmallCartPartial');
 }
 
 function updateCart()
@@ -131,3 +136,154 @@ function updateCart()
             }
         });
 }
+
+function submitOrder() {
+    var ward = document.getElementById('checkout-ward').value;
+    var district = document.getElementById('checkout-district').value;
+    var province = document.getElementById('checkout-province').value;
+    var street = document.getElementById('checkout-street').value;
+    var note = document.getElementById('checkout-note').value;
+    var paymentMethod = document.querySelector('input[name="PaymentMethod"]:checked').value;
+
+    var formData = {
+        Ward: ward,
+        District: district,
+        Province: province,
+        Street: street,
+        OrderNotes: note,
+        paymentMethod: paymentMethod
+    };
+    $.ajax({
+        url: '/Account/PlaceOrder',
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(formData),
+        success: function (res) {
+            alert(res.Message);
+        },
+        error: function (err) {
+            alert("error");
+        }
+    })
+}
+window.addEventListener('load', function (event) {
+    
+    refreshSmallCart();
+    
+});
+$(document).ready(function ()
+{
+    $.ajax({
+        url: 'Home/LoadCategoryMenu',
+        type: 'GET',
+        success: function (data)
+        {
+            $('#category-menu').html(data);
+        },
+        
+    });
+});
+
+     function validateAddProductForm() {
+            var isValid = true;
+
+            var nameInput = document.getElementById('product-name').value;
+            var nameError = document.getElementById('name-error');
+            if (nameInput.trim() === '') {
+                nameError.style.display = 'block';
+            isValid = false;
+                } else {
+                nameError.style.display = 'none';
+                }
+
+            var unitInput = document.getElementById('unit').value;
+            var unitError = document.getElementById('unit-error');
+            if (unitInput.trim() === '') {
+                unitError.style.display = 'block';
+            isValid = false;
+                } else {
+                unitError.style.display = 'none';
+                }
+
+            var quantityInput = document.getElementById('quantity').value;
+            var quantityError = document.getElementById('quantity-error');
+            if (quantityInput.trim() === '') {
+                quantityError.style.display = 'block';
+            isValid = false;
+                } else {
+                quantityError.style.display = 'none';
+                }
+
+            var priceInput = document.getElementById('price').value;
+            var priceError = document.getElementById('price-error');
+            if (priceInput.trim() === '') {
+                priceError.style.display = 'block';
+                    isValid = false;
+                } else {
+                    priceError.style.display = 'none';
+                }
+         var productDetail = CKEDITOR.instances['product-detail'].getData();
+         var shortDes = document.getElementById('short-description').value;
+         var formData = new FormData();
+         var category = document.getElementById('CategoryId').value;
+         var imgSrc = document.getElementById('img-preview').src;
+         formData.append('Name', nameInput);
+         formData.append('ShortDescription', shortDes);
+         formData.append('Description', productDetail);
+         formData.append('Instock', quantityInput);
+         formData.append('Unit', unitInput);
+         formData.append('Price', priceInput);
+         formData.append('CategoryId', category);
+         formData.append('Image', imgSrc);
+         var xhr = new XMLHttpRequest();
+         xhr.open('POST', '/Admin/AddProduct', true);
+         xhr.onload = function ()
+         {
+             if (xhr.status === 200)
+             {
+                 alert('Form submitted successfully!');
+                 window.location.href = '/Admin/ProductList';
+             } else
+             {
+                 alert('An error occurred while submitting the form.');
+             }
+         };
+         xhr.send(formData);
+    }
+
+function validateAddCategoryForm() {
+    var isValid = true;
+
+    var nameInput = document.getElementById('category-name').value;
+    var nameError = document.getElementById('name-category-error');
+    if (nameInput.trim() === '') {
+        nameError.style.display = 'block';
+        isValid = false;
+    } else {
+        nameError.style.display = 'none';
+    }
+
+    var desInput = document.getElementById('category-description').value;
+    var desError = document.getElementById('description-category-error');
+    if (desInput.trim() === '') {
+        desError.style.display = 'block';
+        isValid = false;
+    } else {
+        desError.style.display = 'none';
+    }
+
+    var parentIDInput = document.getElementById('category-parentID').value;
+    var parentIDError = document.getElementById('parentId-category-error');
+    if (parentIDInput.trim() === '') {
+        parentIDError.style.display = 'block';
+        isValid = false;
+    } else {
+        parentIDError.style.display = 'none';
+    }
+    
+    if (isValid) {
+        document.getElementById('add-category-form').submit();
+    }
+}
+
+

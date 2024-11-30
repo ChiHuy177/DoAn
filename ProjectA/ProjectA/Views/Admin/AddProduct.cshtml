@@ -8,9 +8,8 @@
 
 <div class="page-wrapper">
     <div class="page-content-tab">
-        <form method="post" enctype="multipart/form-data">
+        <form method="post" enctype="multipart/form-data" id="add-product-form">
             <div class="row">
-
                 <div class="col-lg-12 col-xxl-12">
                     <div class="card">
                         <div class="card-body">
@@ -23,90 +22,71 @@
                                     <div class="app-form">
                                         <div class="mb-3">
                                             <label class="form-label">Product Name</label>
-                                            <input type="text" class="form-control" asp-for="Name">
+                                            <input type="text" class="form-control" id="product-name" asp-for="Name">
+                                            <p id="name-error" class="error-text">Please fill in the name</p>
                                         </div>
                                         <div class="input-group mb-3">
                                             <div class="input-group-prepend">
                                                 <label class="input-group-text" for="inputGroupSelect01">Category name</label>
                                             </div>
-                                            <select class="custom-select" id="inputGroupSelect01" asp-for="CategoryId">
-
+                                            <select class="custom-select" id="CategoryId" asp-for="CategoryId">
                                                 @foreach (var item in categories)
                                                 {
                                                     <option value="@item.Id">@item.Name</option>
                                                 }
-
                                             </select>
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Product Short Description</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" asp-for="ShortDescription"></textarea>
+                                            <textarea class="form-control" id="short-description" rows="2" asp-for="ShortDescription"></textarea>
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Product Detail</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" asp-for="Description"></textarea>
+                                            <textarea class="form-control" id="product-detail" rows="3" asp-for="Description"></textarea>
+                                            <script>
+                                                CKEDITOR.replace('product-detail');
+                                            </script>
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="app-divider-v dashed"></div>
-
-
-
-
-
-                                <div class="app-divider-v dashed"></div>
-
                                 <div class="main-title">
                                     <h6>Inventory</h6>
                                 </div>
-
                                 <div>
                                     <div class="app-form">
                                         <div class="row">
-                                            
-
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label">Unit</label>
-                                                    <input type="text" class="form-control" asp-for="Unit">
+                                                    <input type="text" class="form-control" id="unit" asp-for="Unit">
+                                                    <p id="unit-error" class="error-text" style="display: none;">Please fill in the field</p>
                                                 </div>
                                             </div>
-
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label">Quantity</label>
-                                                    <input type="text" class="form-control" asp-for="InStock" >
+                                                    <input type="text" class="form-control" id="quantity" asp-for="InStock">
+                                                    <p id="quantity-error" class="error-text">Please fill in the field</p>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="app-divider-v dashed"></div>
-
                             </div>
                             <div class="app-product-section">
                                 <div class="main-title">
                                     <h6>Product Media</h6>
                                 </div>
-
-                                
                                 <div class="preview">
-                                     
-                                      <input accept="image/*" class="app-file-upload addproduct file-input" type="file"                                  
-                                      id="addProduct" multiple="multiple" data-allow-reorder="true" asp-for="Image">
-                                      <img id="img-preview" src="" />
+                                    <input accept="image/*" class="app-file-upload addproduct file-input" type="file" id="addProduct" multiple="multiple" data-allow-reorder="true" asp-for="Image">
+                                    <img id="img-preview" src="" />
                                 </div>
                                 <div class="app-divider-v dashed"></div>
-
-                                
-
                                 <div class="main-title">
                                     <h6>Pricing</h6>
                                 </div>
-
                                 <div class="app-form">
                                     <div class="row">
                                         <div class="col-12">
@@ -114,45 +94,35 @@
                                                 <label class="form-label">Price</label>
                                                 <div class="input-group mb-3">
                                                     <span class="input-group-text b-r-left" id="basic-addon1">$</span>
-                                                    <input type="text" class="form-control b-r-right" aria-label="Username"
-                                                           aria-describedby="basic-addon1" asp-for="Price">
+                                                    <input type="text" class="form-control b-r-right" id="price" aria-label="Username" aria-describedby="basic-addon1" asp-for="Price">
+                                                    
                                                 </div>
                                             </div>
+                                            <p id="price-error" class="error-text">Please fill in the field</p>
                                         </div>
-
-                                        
                                     </div>
                                 </div>
                                 <div class="app-divider-v dashed"></div>
-
-
-
-                                <div class="app-divider-v dashed"></div>
-
-                                
                             </div>
                             <div class="col-12">
                                 <div class="mt-4 d-flex justify-content-end gap-2 flex-column flex-sm-row text-end">
                                     <button type="button" class="btn btn-light-secondary">Discard</button>
-                                    <button class="btn btn-primary" type="submit">Add Product</button>
+                                    <button class="btn btn-primary" type="button" onclick="validateAddProductForm()" id="submit-btn">Add Product</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-                
             </div>
-
         </form>
+
         
     </div>
    
     
 </div>
 
-<style>
-    
-</style>
+
+
 
 
