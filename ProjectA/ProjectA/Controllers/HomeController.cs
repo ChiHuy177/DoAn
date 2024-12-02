@@ -18,7 +18,7 @@ namespace ProjectA.Controllers
             _logger = logger;
             _context = context;
         }
-
+        
         public IActionResult Index()
         {
             return View("Index");
@@ -33,10 +33,7 @@ namespace ProjectA.Controllers
             return View(products);
         }
 
-        //public IActionResult ProductDetails()
-        //{
-        //    return View("ProductDetails");
-        //}
+        
         public IActionResult ProductDetails(int Id)
         {
             
@@ -104,7 +101,17 @@ namespace ProjectA.Controllers
             }; 
             return PartialView("_CartPartial", cartViewModel); 
         }
-
+        [HttpGet]
+        public IActionResult GetSmallCartPartial()
+        {
+            var cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+            var cartViewModel = new CartItemViewModel
+            {
+                CartItems = cart,
+                GrandTotal = cart.Sum(x => x.Quantity * x.Price)
+            };
+            return PartialView("_SmallCartPartial", cartViewModel);
+        }
         [HttpPost] 
         public IActionResult UpdateCart([FromBody] List<CartItemModel> cartItems)
         {
@@ -131,7 +138,32 @@ namespace ProjectA.Controllers
             }
         }
 
-
+        //public IActionResult CategoryListPartial()
+        //{
+        //    var categories =  _context.Categories.ToList(); 
+        //    var products = _context.Products.ToList();
+        //    if (categories == null || products == null) 
+        //    { 
+        //        throw new Exception("Categories or Products list is null"); 
+        //    }
+        //    var viewModel = new CategoryProductViewModel { 
+        //        Categories = categories, 
+        //        Products = products
+        //    };
+        //    return PartialView("_CategoryListPartial", viewModel);
+        //}
+        [HttpGet]
+        public IActionResult LoadCategoryMenu() 
+        { 
+            var categories = _context.Categories.ToList(); 
+            var products = _context.Products.ToList(); 
+            var viewModel = new CategoryProductViewModel 
+            { 
+                Categories = categories, 
+                Products = products 
+            }; 
+            return PartialView("_CategoryListPartial", viewModel); 
+        }
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

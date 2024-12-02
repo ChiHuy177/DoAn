@@ -24,6 +24,8 @@
     <link href="~/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="~/assets/css/app.min.css" rel="stylesheet" type="text/css" />
     <link href="~/assets/css/MyCss.css" rel="stylesheet" type="text/css" />
+    <script src="~/lib/ckeditor_4.22.1_full/ckeditor/ckeditor.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
 </head>
 
 <body id="body" class="dark-sidebar">
@@ -129,6 +131,7 @@
                         </div>
                     </a>
                     <div class="dropdown-menu dropdown-menu-end">
+                        <a class="dropdown-item" asp-action="Index" asp-controller="Home"><i class="fa fas fa-home align-text-bottom"></i> Home</a>
                         <a class="dropdown-item" asp-action="AccountDetails" asp-controller="Admin"><i class="ti ti-user font-16 me-1 align-text-bottom"></i> Profile</a>
                         
                         <div class="dropdown-divider mb-0"></div>
@@ -164,13 +167,14 @@
     <script src="~/assets/pages/ecommerce-index.init.js"></script>
     <script src="~/assets/pages/analytics-index.init.js"></script>
     <!-- App js -->
-    <script src="assets/plugins/tobii/tobii.min.js"></script>
+    <script src="~/assets/plugins/tobii/tobii.min.js"></script>
     <script src="~/assets/js/jquery-3.6.3.min.js"></script>
     <script src="~/assets/js/app.js"></script>
     <script src="~/assets/vendor/trumbowyg/trumbowyg.min.js"></script>
     <script src="~/assets/js/addProduct.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
     <script src="~/assets/js/myscript.js"></script>
- 
+    
     
     <script>
         const tobii = new Tobii()

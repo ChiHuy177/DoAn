@@ -49,7 +49,10 @@
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Product Detail</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" asp-for="Description"></textarea>
+                                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="8" asp-for="Description">@Html.Raw(Model.Description)</textarea>
+                                            <script>
+                                                CKEDITOR.replace('exampleFormControlTextarea2');
+                                            </script>
                                         </div>
                                     </div>
                                 </div>

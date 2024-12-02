@@ -1,0 +1,42 @@
+﻿
+
+@model ProjectA.Models.ViewModels.CategoryProductViewModel
+@if (Model == null || Model.Categories == null || Model.Products == null)
+{
+    <p>Data is not available.</p>
+} else
+{
+    @foreach (var category in Model.Categories.Where(c => c.ParentID != -1))
+    {
+        <ul>
+
+        
+        <li class="ltn__category-menu-item ltn__category-menu-drop">
+            <a asp-action="Shop" asp-controller="Home"><i class="icon-shopping-bags"></i>@category.Name</a>
+            <ul class="ltn__category-submenu ltn__category-column-5">
+                <li class="ltn__category-submenu-title ltn__category-menu-drop">
+                    @foreach (var product in Model.Products)
+                    {
+                            
+                            <ul class="ltn__category-submenu-children">
+                                @if (product.CategoryId == category.Id)
+                                {
+                                    <li>
+                                        <a asp-action="ProductDetails" asp-controller="Home" asp-route-Id="@product.Id">@product.Name</a>
+                                    </li>
+                                
+
+                                }
+                            </ul>
+                        
+
+                    }
+                </li>
+                
+            </ul>
+        </li>
+        </ul>
+    }
+}
+
+

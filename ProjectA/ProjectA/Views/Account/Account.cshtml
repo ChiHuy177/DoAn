@@ -1,4 +1,5 @@
-﻿@model ProjectA.Models.ClientModel
+﻿@model ProjectA.Models.ViewModels.AllOrderViewModel
+
 @{
     ViewData["Title"] = "Account";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -40,7 +41,7 @@
                                         <a data-bs-toggle="tab" href="#liton_tab_1_3">Downloads <i class="fas fa-arrow-down"></i></a>
                                         <a data-bs-toggle="tab" href="#liton_tab_1_4">address <i class="fas fa-map-marker-alt"></i></a>
                                         <a data-bs-toggle="tab" href="#liton_tab_1_5">Account Details <i class="fas fa-user"></i></a>
-                                        <a asp-action="SignIn" asp-controller="Account">Logout <i class="fas fa-sign-out-alt"></i></a>
+                                        <a asp-action="Logout" asp-controller="Account">Logout <i class="fas fa-sign-out-alt"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -48,7 +49,7 @@
                                 <div class="tab-content">
                                     <div class="tab-pane fade active show" id="liton_tab_1_1">
                                         <div class="ltn__myaccount-tab-content-inner">
-                                            <p>Hello <strong>@Model.Name</strong> (not <strong>@Model.Name</strong>? <small><a asp-action="SignIn" asp-controller="Account">Log out</a></small> )</p>
+                                            <p>Hello <strong>@Model.Client.Name</strong> (not <strong>@Model.Client.Name</strong>? <small><a asp-action="SignIn" asp-controller="Account">Log out</a></small> )</p>
                                             <p>From your account dashboard you can view your <span>recent orders</span>, manage your <span>shipping and billing addresses</span>, and <span>edit your password and account details</span>.</p>
                                         </div>
                                     </div>
@@ -66,27 +67,26 @@
                                                         </tr>
                                                     </thead>
                                                     <tbody>
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td>Jun 22, 2019</td>
-                                                            <td>Pending</td>
-                                                            <td>$3000</td>
-                                                            <td><a href="cart.html">View</a></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>2</td>
-                                                            <td>Nov 22, 2019</td>
-                                                            <td>Approved</td>
-                                                            <td>$200</td>
-                                                            <td><a href="cart.html">View</a></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>3</td>
-                                                            <td>Jan 12, 2020</td>
-                                                            <td>On Hold</td>
-                                                            <td>$990</td>
-                                                            <td><a href="cart.html">View</a></td>
-                                                        </tr>
+                                                        @if(Model.Orders.Count > 0)
+                                                        {
+                                                            @foreach (var order in Model.Orders)
+                                                            {
+                                                                <tr>
+                                                                    <td>@order.Id</td>
+                                                                    <td>@order.OrderDate</td>
+                                                                    <td>Pending</td>
+                                                                    <td>@order.TotalValue.ToString("#,##0")</td>
+                                                                    <td><a href="cart.html">View</a></td>
+                                                                </tr>
+                                                            }
+                                                        } else
+                                                        {
+                                                            <tr>
+                                                                <td colspan="5">You don't have any order!</td>
+                                                            </tr>
+                                                        }
+
+                                                        
                                                     </tbody>
                                                 </table>
                                             </div>
@@ -165,20 +165,20 @@
                                                     <div class="row mb-50">
                                                         <div class="col-md-6">
                                                             <label>Name:</label>
-                                                            <input type="text" name="ltn__lastname" value="@Model.Name">
+                                                            <input type="text" name="ltn__lastname" value="@Model.Client.Name">
                                                         </div>
                                                         <div class="col-md-6">
                                                             <label>User name:</label>
-                                                            <input type="text" name="ltn__name" value="@Model.Username">
+                                                            <input type="text" name="ltn__name" value="@Model.Client.Username">
                                                         </div>
                                                         <div class="col-md-6">
                                                             <label>Phone number:</label>
-                                                            <input type="text" name="ltn__lastname" value="@Model.Phone">
+                                                            <input type="text" name="ltn__lastname" value="@Model.Client.Phone">
                                                         </div>
                                                         
                                                         <div class="col-md-6">
                                                             <label>Email:</label>
-                                                            <input type="email" name="ltn__lastname" value="@Model.Email">
+                                                            <input type="email" name="ltn__lastname" value="@Model.Client.Email">
                                                         </div>
                                                     </div>
                                                     <fieldset>
