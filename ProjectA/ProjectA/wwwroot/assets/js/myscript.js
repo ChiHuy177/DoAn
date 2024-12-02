@@ -182,6 +182,8 @@ $(document).ready(function ()
         },
         
     });
+    $('#product-list-table').DataTable();
+    $('#category-list-table').DataTable();
 });
 
      function validateAddProductForm() {
@@ -286,4 +288,6 @@ function validateAddCategoryForm() {
     }
 }
 
+
+    
 
