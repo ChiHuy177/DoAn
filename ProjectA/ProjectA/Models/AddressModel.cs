@@ -11,13 +11,13 @@ namespace ProjectA.Models
         [ForeignKey("ClientModel")] 
         public int ClientId { get; set; }
         [Required]
-        [StringLength(20)] 
+        [StringLength(255)] 
         public string Province { get; set; }
         [Required]
-        [StringLength(20)] 
+        [StringLength(255)] 
         public string District { get; set; }
         [Required]
-        [StringLength(20)] 
+        [StringLength(255)] 
         public string Ward { get; set; }
         [Required]
         [StringLength(255)]

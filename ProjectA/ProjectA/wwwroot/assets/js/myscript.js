@@ -289,5 +289,23 @@ function validateAddCategoryForm() {
 }
 
 
-    
+document.addEventListener("DOMContentLoaded", function () {
+    var links = document.querySelectorAll(".tab-link");
+    links.forEach(function (link) {
+        link.addEventListener("click", function () {
+            links.forEach(function (link) {
+                link.classList.remove("active");
+            });
+            this.classList.add("active");
+
+            var tabPanes = document.querySelectorAll(".tab-pane");
+            tabPanes.forEach(function (pane) {
+                pane.classList.remove("active", "show");
+            });
+            var targetPane = document.querySelector(this.getAttribute("href"));
+            console.log(targetPane);
+            targetPane.classList.add("active");
+        });
+    });
+});
 
