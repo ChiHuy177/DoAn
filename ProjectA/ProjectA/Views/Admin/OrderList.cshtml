@@ -1,8 +1,8 @@
-﻿@{
-    ViewData["Title"] = "ProductList";
+﻿
+@{
+    ViewData["Title"] = "OrderList";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-
 
 <div class="page-wrapper">
 
@@ -16,7 +16,7 @@
                     <div class="page-title-box">
 
 
-                        <h4 class="page-title">Category List</h4>
+                        <h4 class="page-title">Order List</h4>
                     </div><!--end page-title-box-->
                 </div><!--end col-->
             </div>
@@ -25,19 +25,19 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <div class="col-12">
-                                <a class="btn btn-outline-primary btn-sm px-4" asp-action="AddCategory" asp-controller="Admin">+ Add New Category</a>
-                            </div>
+                            
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="category-list-table">
                                     <thead>
                                         <tr>
 
-                                            <th>Category ID</th>
-                                            <th>Category Name</th>
-                                            <th>Desription</th>
-                                            <th>Parent ID</th>
-                                            <th>Number of products</th>
+                                            <th>ID</th>
+                                            <th>Client ID</th>
+                                            <th>Address ID</th>
+                                            <th>Order date</th>
+                                            <th>Total Value</th>
+                                            <th>Note</th>
+                                            <th>Payment Method</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -45,37 +45,46 @@
                                         <!--do du lieu-->
                                         @foreach (var item in Model)
                                         {
+                                            string clientName = "";
+                                            string address = "";
+                                            @foreach(var client in ViewBag.Clients)
+                                            {
+                                                @if(client.Id == item.ClientId)
+                                                {
+                                                    clientName = client.Name;
+                                                    break;
+                                                }
+                                            }
+                                            @foreach (var addresses in ViewBag.Address)
+                                            {
+                                                @if (addresses.Id == item.AddressId)
+                                                {
+                                                    address = addresses.Province;
+                                                }
+                                            }
                                             <tr>
-                                                
+
                                                 <td>@item.Id</td>
-                                                <td>@item.Name</td>
-                                                <td>@item.Description</td>
-                                                <td>@item.ParentID</td>
+                                                <td>@clientName</td>
+                                                <td>@address</td>
+                                                <td>@item.OrderDate</td>
                                                 <td>
-                                                    @{
-                                                        int count = 0;
-                                                    }
-                                                    @foreach(var product in ViewBag.Products)
-                                                    {
-                                                        @if(product.CategoryId == item.Id)
-                                                        {
-                                                            count++;
-                                                        }
-                                                    }
-                                                    @count
+                                                    @item.TotalValue.ToString("#,##0") đ
                                                 </td>
+                                                <td>@item.Note</td>
+                                                <td>@item.PaymentMethod</td>
                                                 <td>
                                                     <a onclick="editCategory(@item.Id)" class="mr-2"><i class="las la-pen text-secondary font-16"></i></a>
                                                     <a onclick="deleteCategory(@item.Id)"><i class="las la-trash-alt text-secondary font-16"></i></a>
                                                 </td>
-                                                
+
                                             </tr>
                                         }
 
                                     </tbody>
                                 </table>
                             </div>
-                            
+
                         </div><!--end card-body-->
                     </div><!--end card-->
                 </div> <!-- end col -->

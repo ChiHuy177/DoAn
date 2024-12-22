@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
+using Mysqlx.Datatypes;
 using ProjectA.Data;
 using ProjectA.Models;
 using ProjectA.Models.ViewModels;
@@ -90,12 +91,12 @@ namespace ProjectA.Controllers
         {
             return View("DashBoard");
         }
-        public async Task<IActionResult> ProductListAsync()
-        {   
+        public IActionResult ProductList()
+        {
             var products = _context.Products.ToList();
             List<ProductDetailsViewModel> list = new List<ProductDetailsViewModel>();
             foreach (var each in products)
-                
+
             {
                 var productCategoryId = each.CategoryId;
                 var category = _context.Categories.Where(c => c.Id == productCategoryId).FirstOrDefault();
@@ -215,6 +216,8 @@ namespace ProjectA.Controllers
         public IActionResult CategoryList()
         {
             var categories = _context.Categories.ToList();
+            var products = _context.Products.ToList();
+            ViewBag.Products = products;
             return View(categories);
         }
 
@@ -275,6 +278,17 @@ namespace ProjectA.Controllers
             }
             return RedirectToAction("CategoryList", "Admin");
 
+        }
+        [HttpGet]
+        [Authorize]
+        public IActionResult OrderList()
+        {
+            var orders = _context.Orders.ToList();
+            var clients = _context.Clients.ToList();
+            var addresses = _context.Addresses.ToList();
+            ViewBag.Clients = clients;
+            ViewBag.Address = addresses;
+            return View(orders);
         }
     }
 }
