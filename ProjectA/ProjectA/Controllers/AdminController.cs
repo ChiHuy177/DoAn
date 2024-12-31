@@ -134,7 +134,7 @@ namespace ProjectA.Controllers
 
         [HttpPost]
         [Authorize]
-        public async Task<IActionResult> AddProduct(AddProductViewModel viewModel)
+        public IActionResult AddProduct([FromForm] AddProductViewModel viewModel)
         {
             
             string currentDate = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss_fff");
@@ -158,9 +158,9 @@ namespace ProjectA.Controllers
                 Price = viewModel.Price,
                 CategoryId = viewModel.CategoryId,
             };
-            await _context.Products.AddAsync(product);
-            await _context.SaveChangesAsync();
-            return RedirectToAction("ProductList", "Admin");
+             _context.Products.AddAsync(product);
+             _context.SaveChangesAsync();
+            return Ok(new { Message = "Order placed successfully!" });
         }
 
         [HttpPost]

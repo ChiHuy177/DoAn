@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fB1kwewvUcp6MPz03aTnY0JuDTxdOMDti/60nzR0jRA=",
+  "Hash": "maV4gFA3mZmyHA7kzaKk9DZc/djwT566203/cg/97R0=",
   "Source": "ProjectA",
   "BasePath": "_content/ProjectA",
   "Mode": "Default",
@@ -24164,6 +24164,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploadImages\\Product112_2024-11-19_10-55-52_098_Screenshot 2023-12-31 110323.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\ProducTest_2024-12-31_17-46-24_827_Screenshot 2023-12-31 110323.png",
+      "SourceId": "ProjectA",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\",
+      "BasePath": "_content/ProjectA",
+      "RelativePath": "uploadImages/ProducTest_2024-12-31_17-46-24_827_Screenshot 2023-12-31 110323.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploadImages\\ProducTest_2024-12-31_17-46-24_827_Screenshot 2023-12-31 110323.png"
     },
     {
       "Identity": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Screenshot 2023-12-24 210225.png_2024-12-31_17-41-17_925.png",

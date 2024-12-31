@@ -137,6 +137,7 @@ function updateCart()
         });
 }
 
+
 function submitOrder() {
     var ward = document.getElementById('checkout-ward').value;
     var district = document.getElementById('checkout-district').value;
@@ -223,12 +224,22 @@ $(document).ready(function ()
                     isValid = false;
                 } else {
                     priceError.style.display = 'none';
-                }
-         var productDetail = CKEDITOR.instances['product-detail'].getData();
-         var shortDes = document.getElementById('short-description').value;
-         var formData = new FormData();
+         }
          var category = document.getElementById('CategoryId').value;
          var imgSrc = $('#addProduct')[0].files[0];
+         var productDetail = CKEDITOR.instances['product-detail'].getData();
+         var shortDes = document.getElementById('short-description').value;
+         var formData1 = {
+             Name: nameInput,
+             ShortDescription: shortDes,
+             Description: productDetail,
+             InStock: quantityInput,
+             Unit: unitInput,
+             Price: priceInput,
+             CategoryId: category,
+             Image: imgSrc
+         };
+         var formData = new FormData();
          formData.append('Name', nameInput);
          formData.append('ShortDescription', shortDes);
          formData.append('Description', productDetail);
@@ -237,20 +248,21 @@ $(document).ready(function ()
          formData.append('Price', priceInput);
          formData.append('CategoryId', category);
          formData.append('Image', imgSrc);
-         var xhr = new XMLHttpRequest();
-         xhr.open('POST', '/Admin/AddProduct', true);
-         xhr.onload = function ()
-         {
-             if (xhr.status === 200)
-             {
-                 alert('Form submitted successfully!');
-                 window.location.href = '/Admin/ProductList';
-             } else
-             {
-                 alert('An error occurred while submitting the form.');
+
+         $.ajax({
+             url: '/Admin/AddProduct',
+             type: 'POST',
+             data: formData,
+             contentType: false,
+             processData: false,  
+             success: function (res) {
+                 alert("Form submitted successfully!");
+             },
+             error: function (err) {
+                 alert("error");
              }
-         };
-         xhr.send(formData);
+         })
+         
     }
 
 function validateAddCategoryForm() {

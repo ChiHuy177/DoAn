@@ -125,7 +125,6 @@ namespace ProjectA.Controllers
         }
 
         [Authorize(AuthenticationSchemes = "UserScheme")]
-        [Authorize(AuthenticationSchemes = "AdminScheme")]
         [HttpPost]
         public IActionResult PlaceOrder([FromBody] OrderViewModel order)
         {
