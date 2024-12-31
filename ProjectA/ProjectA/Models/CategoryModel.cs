@@ -14,6 +14,7 @@ namespace ProjectA.Models
         public string Description { get; set; } 
 
         public int ParentID { get; set; }
+
         // Navigation property
         public virtual ICollection<ProductModel> Products { get; set; }
     }

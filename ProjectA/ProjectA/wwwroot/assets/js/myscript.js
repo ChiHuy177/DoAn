@@ -1,11 +1,29 @@
+
+//tao preview img khi add product
 document.addEventListener('DOMContentLoaded', function ()
 {
     var addProductInput = document.getElementById('addProduct');
     if (addProductInput)
     {
-        addProductInput.addEventListener('change', function (event) { var input = event.target; var reader = new FileReader(); reader.onload = function () { var dataURL = reader.result; var imagePreview = document.getElementById('img-preview'); imagePreview.src = dataURL; imagePreview.style.display = 'block'; }; if (input.files && input.files[0]) { reader.readAsDataURL(input.files[0]); } });
+        addProductInput.addEventListener('change', function (event) {
+            var input = event.target;
+            var reader = new FileReader();
+            reader.onload = function ()
+            {
+                var dataURL = reader.result;
+                var imagePreview = document.getElementById('img-preview');
+                imagePreview.src = dataURL;
+                imagePreview.style.display = 'block';
+            };
+            if (input.files && input.files[0])
+            {
+                reader.readAsDataURL(input.files[0]);
+            }
+        });
     }
 });
+
+//delete category
 function deleteCategory(id) {
     if (confirm('Are you sure you want to delete this category?')) {
         var form = document.createElement('form');
@@ -15,6 +33,8 @@ function deleteCategory(id) {
         form.submit();
     }
 }
+
+//chuyen tab sang edit category khi bam vao edit
 function editCategory(id) {
 
     {
@@ -25,6 +45,8 @@ function editCategory(id) {
         form.submit();
     }
 }
+
+//delete product bang id 
 function deleteItem(id) {
     if (confirm('Are you sure you want to delete this product?')) {
         var form = document.createElement('form');
@@ -34,6 +56,8 @@ function deleteItem(id) {
         form.submit();
     }
 }
+
+//edit product bang id
 function editItem(id) {
 
     {
@@ -45,7 +69,7 @@ function editItem(id) {
     }
 }
 
-
+// validate truoc khi dang ky tk moi
 function checkBeforeSubmit() {
     
     var usernameList = [];
@@ -72,13 +96,16 @@ function checkBeforeSubmit() {
 
     });  
 }
+
 $('#successRegisterModal').on('hidden.bs.modal', function () {
     document.getElementById('register-form').submit();
 })
-
+//tat modal
 function closeModal() {
     $('#successRegisterModal').modal('hide');
 }
+
+// xu ly UI addToCart
 function addToCart(productId) {
     var quantity = document.getElementById('quantity-' + productId).value;
     var url = '/Home/AddToCart?id=' + productId + '&quantity=' + quantity;
@@ -95,6 +122,8 @@ function addToCart(productId) {
         });
     
 }
+
+//refresh lai cart UI moi lan chuyen tab
 function refreshCart()
 {
     $('#cart-partial').load('/Home/GetCartPartial');
@@ -110,6 +139,8 @@ function refreshSmallCart() {
     $('.mini-cart-icon-partital').load('/Home/GetSmallCartPartial');
 }
 
+
+//update cart o trang cart
 function updateCart()
 {
     var cartItems = [];
@@ -137,7 +168,7 @@ function updateCart()
         });
 }
 
-
+//submit order
 function submitOrder() {
     var ward = document.getElementById('checkout-ward').value;
     var district = document.getElementById('checkout-district').value;
@@ -172,6 +203,8 @@ window.addEventListener('load', function (event) {
     refreshSmallCart();
     
 });
+
+// xu ly UI menu cua category
 $(document).ready(function ()
 {
     $.ajax({
@@ -187,6 +220,7 @@ $(document).ready(function ()
     $('#category-list-table').DataTable();
 });
 
+//validate form add product
      function validateAddProductForm() {
             var isValid = true;
 
@@ -265,6 +299,7 @@ $(document).ready(function ()
          
     }
 
+    //validate form add category
 function validateAddCategoryForm() {
     var isValid = true;
 
@@ -301,6 +336,8 @@ function validateAddCategoryForm() {
 }
 
 
+
+// sua lai UI cua web
 document.addEventListener("DOMContentLoaded", function () {
     var links = document.querySelectorAll(".tab-link");
     links.forEach(function (link) {
