@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\DoAn\\ProjectA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Migrations\\20241222091400_editAddressModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectA\\Migrations\\20241222091400_editAddressModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\wwwroot\\assets\\js\\myscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\wwwroot\\assets\\js\\myscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\models\\viewmodels\\addproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\models\\viewmodels\\addproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\views\\admin\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\views\\admin\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|solutionrelative:projecta\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DDC1D94-ACC0-4244-B4DF-F63584CF6B6C}|ProjectA\\ProjectA.csproj|d:\\github\\doan\\projecta\\projecta\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +46,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241222091400_editAddressModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Migrations\\20241222091400_editAddressModel.cs",
-              "RelativeDocumentMoniker": "ProjectA\\Migrations\\20241222091400_editAddressModel.cs",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Migrations\\20241222091400_editAddressModel.cs",
-              "RelativeToolTip": "ProjectA\\Migrations\\20241222091400_editAddressModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AddProductViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\ViewModels\\AddProductViewModel.cs",
+              "RelativeDocumentMoniker": "ProjectA\\Models\\ViewModels\\AddProductViewModel.cs",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\ViewModels\\AddProductViewModel.cs",
+              "RelativeToolTip": "ProjectA\\Models\\ViewModels\\AddProductViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T09:14:01.094Z",
+              "WhenOpened": "2024-12-31T10:31:49.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "ProjectA\\Views\\Admin\\AddProduct.cshtml",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeToolTip": "ProjectA\\Views\\Admin\\AddProduct.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T03:39:44.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "myscript.js",
+              "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\myscript.js",
+              "RelativeDocumentMoniker": "ProjectA\\wwwroot\\assets\\js\\myscript.js",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\assets\\js\\myscript.js",
+              "RelativeToolTip": "ProjectA\\wwwroot\\assets\\js\\myscript.js",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAuwOYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-31T03:03:10.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AddressModel.cs",
               "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\AddressModel.cs",
               "RelativeDocumentMoniker": "ProjectA\\Models\\AddressModel.cs",
@@ -59,25 +93,24 @@
               "RelativeToolTip": "ProjectA\\Models\\AddressModel.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T08:30:03.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T08:30:03.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "ProjectA\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "ProjectA\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAABgBAAAAAAAAAAAQwCEBAAAbAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Controllers\\AdminController.cs*",
+              "RelativeToolTip": "ProjectA\\Controllers\\AdminController.cs*",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAqwJEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T08:23:37.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "OrderModel.cs",
               "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Models\\OrderModel.cs",
               "RelativeDocumentMoniker": "ProjectA\\Models\\OrderModel.cs",
@@ -89,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "OrderList.cshtml",
               "DocumentMoniker": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\Views\\Admin\\OrderList.cshtml",
               "RelativeDocumentMoniker": "ProjectA\\Views\\Admin\\OrderList.cshtml",
@@ -97,8 +130,7 @@
               "RelativeToolTip": "ProjectA\\Views\\Admin\\OrderList.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T08:10:22.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T08:10:22.399Z"
             }
           ]
         }

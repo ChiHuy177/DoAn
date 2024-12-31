@@ -20272,6 +20272,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Product1_2024-11-19_09-59-47_261_Screenshot 2023-12-31 110323.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Screenshot 2023-12-24 210225.png_2024-12-31_17-41-17_925.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProjectA</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProjectA</BasePath>
+      <RelativePath>uploadImages/Screenshot 2023-12-24 210225.png_2024-12-31_17-41-17_925.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Screenshot 2023-12-24 210225.png_2024-12-31_17-41-17_925.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Screenshot 2023-12-31 110323.png_2024-12-31_17-38-26_072))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProjectA</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProjectA</BasePath>
+      <RelativePath>uploadImages/Screenshot 2023-12-31 110323.png_2024-12-31_17-38-26_072</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Screenshot 2023-12-31 110323.png_2024-12-31_17-38-26_072))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadImages\Siro Brauer Baby Kids D3+k2 High Potency MK-7 Drops 10ml_2024-11-24_21-24-11_295_DSC_04996_7d25dc3860.png))">
       <SourceType>Package</SourceType>
       <SourceId>ProjectA</SourceId>

@@ -114,7 +114,6 @@ namespace ProjectA.Controllers
         {
             var categories = await _context
                 .Categories
-                .Where(c => c.ParentID != -1)
                 .Select(c => new CategoryModel { Id = c.Id, Name = c.Name })
                 .ToListAsync();
             ViewBag.Categories = categories;
@@ -143,7 +142,7 @@ namespace ProjectA.Controllers
             if (viewModel.Image != null)
             {
                 String uploadFolder = Path.Combine(webHostEnvironment.WebRootPath, "uploadImages");
-                fileName = viewModel.Image.FileName + "_" + currentDate ;
+                fileName = viewModel.Name + "_" + currentDate +"_"+ viewModel.Image.FileName;
                 String filePath = Path.Combine(uploadFolder, fileName);
                 viewModel.Image.CopyTo(new FileStream(filePath, FileMode.Create));
 

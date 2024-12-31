@@ -228,7 +228,7 @@ $(document).ready(function ()
          var shortDes = document.getElementById('short-description').value;
          var formData = new FormData();
          var category = document.getElementById('CategoryId').value;
-         var imgSrc = document.getElementById('img-preview').src;
+         var imgSrc = $('#addProduct')[0].files[0];
          formData.append('Name', nameInput);
          formData.append('ShortDescription', shortDes);
          formData.append('Description', productDetail);
