@@ -1641,6 +1641,18 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\json\\quan_huyen.json",
+      "PackagePath": "staticwebassets\\json\\quan_huyen.json"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\json\\tinh_tp.json",
+      "PackagePath": "staticwebassets\\json\\tinh_tp.json"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\json\\xa_phuong.json",
+      "PackagePath": "staticwebassets\\json\\xa_phuong.json"
+    },
+    {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
@@ -5031,6 +5043,14 @@
     {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\ProducTest_2024-12-31_17-46-24_827_Screenshot 2023-12-31 110323.png",
       "PackagePath": "staticwebassets\\uploadImages\\ProducTest_2024-12-31_17-46-24_827_Screenshot 2023-12-31 110323.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\ProducTest_2024-12-31_18-36-45_038_Screenshot 2023-12-24 210225.png",
+      "PackagePath": "staticwebassets\\uploadImages\\ProducTest_2024-12-31_18-36-45_038_Screenshot 2023-12-24 210225.png"
+    },
+    {
+      "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\ProducTest_2025-01-06_10-30-20_528_cat.JPEG",
+      "PackagePath": "staticwebassets\\uploadImages\\ProducTest_2025-01-06_10-30-20_528_cat.JPEG"
     },
     {
       "Id": "D:\\GitHub\\DoAn\\ProjectA\\ProjectA\\wwwroot\\uploadImages\\Product112_2024-11-19_10-55-52_098_Screenshot 2023-12-31 110323.png",

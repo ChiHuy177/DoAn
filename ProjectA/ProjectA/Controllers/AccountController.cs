@@ -7,6 +7,7 @@ using ProjectA.Models;
 using ProjectA.Models.ViewModels;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
+using Mysqlx;
 
 namespace ProjectA.Controllers
 {
@@ -28,8 +29,14 @@ namespace ProjectA.Controllers
         [HttpPost]
         public async Task<IActionResult> SignIn(string username, string password)
         {
-            var user = await _context.Clients.SingleOrDefaultAsync(u => u.Username == username && u.Password == password);
-            if (user != null)
+            await HttpContext.SignOutAsync("UserScheme");
+            HttpContext.Response.Cookies.Delete("UserScheme");
+            await HttpContext.SignOutAsync("AdminScheme");
+            HttpContext.Response.Cookies.Delete("AdminScheme");
+
+
+            var user = await _context.Clients.SingleOrDefaultAsync(u => u.Username == username && u.Role == 1);
+            if (user != null && user.VerifyPassword(password))
                 if(user.Role == 1)
                 {
                     var claims = new List<Claim>
@@ -43,20 +50,7 @@ namespace ProjectA.Controllers
                     HttpContext.Session.SetString("IsLoggedIn", "true");
                     return RedirectToAction("Cart", "Home");
                 }
-                else if (user.Role == 0)
-                {
-                    var claims = new List<Claim>
-                {
-                    new Claim (ClaimTypes.Name, user.Username),
-                    new Claim (ClaimTypes.NameIdentifier, user.Id.ToString()),
-                    new Claim("Admin", "true")
-                };
-                    var claimsIdentity = new ClaimsIdentity(claims, "AdminScheme");
-                    await HttpContext.SignInAsync("AdminScheme", new ClaimsPrincipal(claimsIdentity));
-                    HttpContext.Session.SetString("IsLoggedIn", "true");
-                    HttpContext.Session.SetString("IsAdmin", "true");
-                    return RedirectToAction("Cart", "Home");
-                }
+                
             ViewBag.Error = "Your username or password is incorrect";
             return View();
         }
@@ -86,13 +80,13 @@ namespace ProjectA.Controllers
                 Role = 1,
                 Phone = viewModel.Phone,
             };
-            
-                await _context.Clients.AddAsync(client);
-                await _context.SaveChangesAsync();          
+            client.SetPassword(viewModel.Password);
+            await _context.Clients.AddAsync(client);
+            await _context.SaveChangesAsync();          
             return RedirectToAction("SignIn", "Account");
 
         }
-        [Authorize(AuthenticationSchemes = "AdminScheme")]
+
         [Authorize(AuthenticationSchemes = "UserScheme")]
         
         public async Task<IActionResult> Account()
@@ -112,15 +106,17 @@ namespace ProjectA.Controllers
 
         }
         [Authorize(AuthenticationSchemes = "UserScheme")]
-        [Authorize(AuthenticationSchemes = "AdminScheme")]
         public IActionResult CheckOut()
         {
+            var nameIdentifier = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+            var addresses = _context.Addresses.Where(a => a.ClientId == int.Parse(nameIdentifier)).ToList();
             CartItemViewModel cartVM = new CartItemViewModel()
             {
                 CartItems = cart,
                 GrandTotal = cart.Sum(x => x.Quantity * x.Price),
             };
+            ViewBag.Addresses = addresses;
             return View(cartVM); 
         }
 
@@ -130,7 +126,15 @@ namespace ProjectA.Controllers
         {
             var nameIdentifier = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
-            if (cart.Count() > 0) {
+            foreach (var item in cart)
+            {
+                var foundProduct = _context.Products.SingleOrDefault(x => x.Id == item.Id);
+                if (foundProduct == null || foundProduct.InStock < item.Quantity)
+                {
+                    return BadRequest(new { Message = "Order placed fail!" });
+                }
+            }
+                if (cart.Count() > 0) {
                 if (nameIdentifier != null)
                 {
 
@@ -173,14 +177,15 @@ namespace ProjectA.Controllers
                                 Price = item.Price,
                             };
                             _context.OrderDetails.Add(details);
-                            _context.SaveChanges();
+                            
                             // tru lai quantity
                             foundProduct.InStock -= item.Quantity;
-                            _context.SaveChanges();
+                            
                         }
 
 
                     }
+                    _context.SaveChanges();
                 }
             }
             

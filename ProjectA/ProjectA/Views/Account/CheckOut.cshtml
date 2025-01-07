@@ -25,7 +25,39 @@
 <!-- WISHLIST AREA START -->
 <div class="ltn__checkout-area mb-105">
     <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ltn__checkout-inner">
+                    <div class="ltn__checkout-single-content mt-50">
+                        <h4 class="title-2">Address co san</h4>
+                        <div class="ltn__checkout-single-content-info">
+                            <table id="address-table" class="display hover">
+                                <thead>
+                                    <tr>
+                                        <th>Province</th>
+                                        <th>District</th>
+                                        <th>Ward</th>
+                                        <th>Addresses</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach(var item in ViewBag.Addresses)
+                                    {
+                                        <tr>
+                                            <td>@item.Province</td>
+                                            <td>@item.District</td>
+                                            <td>@item.Ward</td>
+                                            <td>@item.Street</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </div>
         <form>
             <div class="row">
             <div class="col-lg-12">
@@ -41,22 +73,25 @@
                                     
                                     
                                     <div class="col-lg-4 col-md-6">
-                                        <h6>Ward</h6>
-                                        <div class="input-item">
-                                            <input type="text" placeholder="Ward" name="Ward" id="checkout-ward">
-                                        </div>
+                                        <h6>Province</h6>                                        
+                                        <select id="provinceSelect" size="20" name="Province">
+                                            <option value="" selected>Province</option>
+                                        </select>
+                                        
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <h6>District </h6>
-                                        <div class="input-item">
-                                            <input type="text" placeholder="District" name="District" id="checkout-district">
-                                        </div>
+                                        <select id="districtSelect" size="20" name="District">
+                                            <option value="" selected>District</option>
+                                        </select>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
-                                        <h6>Province</h6>
-                                        <div class="input-item">
-                                            <input type="text" placeholder="Province" name="Province" id="checkout-province">
-                                        </div>
+                                        <h6>Ward</h6>
+                                        <select id="wardSelect" size="20" name="Ward">
+                                            <option value="......" selected>Ward</option>
+                                        </select>
+                                        <p id="ward-error" class="error-text">Please fill in this field</p>
+                                        
                                     </div>
                                     <div class="col-lg-12 col-md-12">
                                         <h6>Address</h6>
@@ -143,3 +178,4 @@
     </div>
 
 <!-- WISHLIST AREA START -->
+ 

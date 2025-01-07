@@ -5,3 +5,13 @@
     font-weight: 600;
     text-transform: capitalize;
 }
+.nice-select {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 1px 40px 1px 20px;
+}
+
+.nice-select.open .list {
+    max-height: 350px;
+    overflow-y: auto;
+}

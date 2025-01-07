@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
+using MySql.Data.MySqlClient;
 using Mysqlx.Datatypes;
 using ProjectA.Data;
 using ProjectA.Models;
@@ -36,8 +37,8 @@ namespace ProjectA.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Login (string username, string password)
         {
-            var user = await _context.Clients.SingleOrDefaultAsync(u => u.Username == username && u.Password == password && u.Role == 0);
-            if(user != null)
+            var user = await _context.Clients.SingleOrDefaultAsync(u => u.Username == username && u.Role == 0);
+            if(user != null && user.VerifyPassword(password))
 
             {
                 var claims = new List<Claim>
@@ -57,8 +58,8 @@ namespace ProjectA.Controllers
         [HttpGet] 
 
         public async Task<IActionResult> Logout() 
-        { 
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme); 
+        {
+            await HttpContext.SignOutAsync("AdminScheme");
             return RedirectToAction("Login", "Admin"); 
         }
         [HttpGet]
@@ -82,6 +83,7 @@ namespace ProjectA.Controllers
                 Role = 0,
                 Phone = viewModel.Phone,
             };
+            client.SetPassword(client.Password);
             await _context.Clients.AddAsync(client);
             await _context.SaveChangesAsync();
             return RedirectToAction("Login","Admin");
@@ -93,7 +95,12 @@ namespace ProjectA.Controllers
         }
         public IActionResult ProductList()
         {
-            var products = _context.Products.ToList();
+              var products = _context.Products.ToList();
+
+            //var products = _context.Products.FromSqlRaw("Call getProductCategory4")
+            //    .ToList();
+
+
             List<ProductDetailsViewModel> list = new List<ProductDetailsViewModel>();
             foreach (var each in products)
 

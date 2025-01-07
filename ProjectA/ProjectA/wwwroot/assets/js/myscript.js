@@ -1,4 +1,4 @@
-
+﻿
 //tao preview img khi add product
 document.addEventListener('DOMContentLoaded', function ()
 {
@@ -20,53 +20,158 @@ document.addEventListener('DOMContentLoaded', function ()
                 reader.readAsDataURL(input.files[0]);
             }
         });
-    }
+    };
+
+    var links = document.querySelectorAll(".tab-link");
+    links.forEach(function (link) {
+        link.addEventListener("click", function () {
+            links.forEach(function (link) {
+                link.classList.remove("active");
+            });
+            this.classList.add("active");
+
+            var tabPanes = document.querySelectorAll(".tab-pane");
+            tabPanes.forEach(function (pane) {
+                pane.classList.remove("active", "show");
+            });
+            var targetPane = document.querySelector(this.getAttribute("href"));
+            console.log(targetPane);
+            targetPane.classList.add("active");
+        });
+    });
+    
+    loadProvince();
+    $('#provinceSelect').on('change', function () 
+    {
+        const parentId = this.value;
+        
+        loadDistrict(parentId);
+    });
+    $('#districtSelect').on('change', function () {
+        const parentId = this.value;
+        loadWard(parentId);
+    });
+    $('select').niceSelect();
+    console.log('DOM đã sẵn sàng!');
+    
+
 });
+
+function loadDistrict(parentId) {
+    fetch('/json/quan_huyen.json')
+        .then(response => response.json())
+        .then(data => {
+            if (!Array.isArray(data)) {
+                data = Object.values(data);
+            }
+            document.getElementById('districtSelect').innerHTML = '';
+            const option = document.createElement('option');
+            option.value = '';
+            option.textContent = 'District';
+            option.selected = true;
+            document.getElementById('districtSelect').appendChild(option);
+            for (const district of data) {
+                if (district.parent_code == parentId) {
+                    const option = document.createElement('option');
+                    option.value = district.code;
+                    option.textContent = district.name;
+                    document.getElementById('districtSelect').appendChild(option);
+                }
+            }
+            $('#districtSelect').niceSelect('update');
+        })
+}
+
+function loadProvince() {
+    fetch('/json/tinh_tp.json')
+        .then(response => response.json())
+        .then(data => {
+            if (!Array.isArray(data)) {
+                data = Object.values(data);
+            }
+            
+            for (const province of data) {                
+                const option = document.createElement('option');                
+                option.value = province.code;
+                option.textContent = province.name;
+                document.getElementById('provinceSelect').appendChild(option);               
+            }
+            $('#provinceSelect').niceSelect('update');
+        })
+
+        .catch(error => console.error('Error:', error));
+}
+
+function loadWard(parentId) {
+    fetch('/json/xa_phuong.json')
+        .then(response => response.json())
+        .then(data => {
+            if (!Array.isArray(data)) {
+                data = Object.values(data);
+            }
+            document.getElementById('wardSelect').innerHTML = '';
+            const option = document.createElement('option');
+            option.value = '';
+            option.textContent = 'Ward';
+            option.selected = true;
+            document.getElementById('wardSelect').appendChild(option);
+            for (const district of data) {
+                if (district.parent_code == parentId) {
+                    const option = document.createElement('option');
+                    option.value = district.code;
+                    option.textContent = district.name;
+                    document.getElementById('wardSelect').appendChild(option);
+                }
+            }
+            $('#wardSelect').niceSelect('update');
+        })
+}
 
 //delete category
 function deleteCategory(id) {
-    if (confirm('Are you sure you want to delete this category?')) {
+    $('#deleteCategoryModal').modal('show');
+    $('#confirmDeleteCategory').off('click').on('click', function () {
         var form = document.createElement('form');
         form.method = 'post';
         form.action = '/Admin/DeleteCategory/' + id;
         document.body.appendChild(form);
         form.submit();
-    }
+    });
+    
 }
 
 //chuyen tab sang edit category khi bam vao edit
 function editCategory(id) {
-
-    {
+   
         var form = document.createElement('form');
         form.method = 'get';
         form.action = '/Admin/EditCategory/' + id;
         document.body.appendChild(form);
         form.submit();
-    }
+    
 }
 
 //delete product bang id 
 function deleteItem(id) {
-    if (confirm('Are you sure you want to delete this product?')) {
+    $('#deleteProductModal').modal('show');
+    $('#confirmDeleteProduct').off('click').on('click', function () {
         var form = document.createElement('form');
         form.method = 'post';
         form.action = '/Admin/Delete/' + id;
         document.body.appendChild(form);
         form.submit();
-    }
+    });
 }
 
 //edit product bang id
 function editItem(id) {
 
-    {
         var form = document.createElement('form');
         form.method = 'get';
         form.action = '/Admin/Edit/' + id;
         document.body.appendChild(form);
         form.submit();
-    }
+    
 }
 
 // validate truoc khi dang ky tk moi
@@ -103,7 +208,11 @@ $('#successRegisterModal').on('hidden.bs.modal', function () {
 //tat modal
 function closeModal() {
     $('#successRegisterModal').modal('hide');
+    $('#deleteProductModal').modal('hide');
+    $('#deleteCategoryModal').modal('hide');
 }
+
+
 
 // xu ly UI addToCart
 function addToCart(productId) {
@@ -158,21 +267,36 @@ function updateCart()
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(cartItems),
-            success: function (response) { // X? l� ph?n h?i t? server 
+            success: function (response) { // X? lý ph?n h?i t? server 
                 alert('Cart updated successfully!');
                 location.reload();
             },
-            error: function (error) { // X? l� l?i 
+            error: function (error) { // X? lý l?i 
                 alert('Error updating cart.'); 
             }
         });
 }
 
+
 //submit order
 function submitOrder() {
-    var ward = document.getElementById('checkout-ward').value;
-    var district = document.getElementById('checkout-district').value;
-    var province = document.getElementById('checkout-province').value;
+    
+    
+
+    var provinceSelect = document.getElementById('provinceSelect');
+    var province = provinceSelect.options[provinceSelect.selectedIndex].textContent;
+    console.log(province);
+    var wardSelect = document.getElementById('wardSelect');
+    var ward = wardSelect.options[wardSelect.selectedIndex].textContent;
+    var warderror = document.getElementById('ward-error');
+    if (ward == 'Ward') {
+        warderror.style.display = 'block';
+        return;
+    } else {
+        warderror.style.display = 'none';
+    }
+    var districtSelect = document.getElementById('districtSelect');
+    var district = districtSelect.options[districtSelect.selectedIndex].textContent;   
     var street = document.getElementById('checkout-street').value;
     var note = document.getElementById('checkout-note').value;
     var paymentMethod = document.querySelector('input[name="PaymentMethod"]:checked').value;
@@ -190,11 +314,25 @@ function submitOrder() {
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify(formData),
-        success: function (res) {
-            alert(res.Message);
+        statusCode: {
+            201: function () {
+                alert("Fail to place order");
+            }
         },
-        error: function (err) {
-            alert("error");
+        success: function (res) {
+            alert(res.message);
+        },
+        error: function (xhr, status, error) {
+            if (xhr.status === 400) {
+                // Xử lý lỗi Bad Request
+                $('#myModal .modal-body').text(xhr.responseJSON.message);
+                // Hiển thị modal 
+                $('#myModal').modal('show');
+                
+            } else {
+                // Xử lý các lỗi khác 
+                console.error('Error: ', xhr.responseText.message);
+            }
         }
     })
 }
@@ -218,7 +356,17 @@ $(document).ready(function ()
     });
     $('#product-list-table').DataTable();
     $('#category-list-table').DataTable();
+    $('#address-table').DataTable();
+    var table = $('#address-table').DataTable();
+    $('#address-table tbody').on('click', 'tr', function () {
+        var data = table.row(this).data();
+        alert('Bạn đã chọn: ' + data[0] + " " + data[1]);
+        // Thực hiện các hành động khác với dữ liệu của dòng được chọn 
+    });
 });
+
+
+
 
 //validate form add product
      function validateAddProductForm() {
@@ -338,23 +486,5 @@ function validateAddCategoryForm() {
 
 
 // sua lai UI cua web
-document.addEventListener("DOMContentLoaded", function () {
-    var links = document.querySelectorAll(".tab-link");
-    links.forEach(function (link) {
-        link.addEventListener("click", function () {
-            links.forEach(function (link) {
-                link.classList.remove("active");
-            });
-            this.classList.add("active");
 
-            var tabPanes = document.querySelectorAll(".tab-pane");
-            tabPanes.forEach(function (pane) {
-                pane.classList.remove("active", "show");
-            });
-            var targetPane = document.querySelector(this.getAttribute("href"));
-            console.log(targetPane);
-            targetPane.classList.add("active");
-        });
-    });
-});
 

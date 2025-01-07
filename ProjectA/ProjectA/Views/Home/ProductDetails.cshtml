@@ -70,16 +70,27 @@
                                 <div class="ltn__product-details-menu-2">
                                     <ul>
                                         <li>
-                                            <div class="cart-plus-minus">
-                                                <input type="text" value="1" name="qtybutton" class="cart-plus-minus-box" id="quantity-@Model.Product.Id">
-                                            </div>
+                                            @if (Model.Product.InStock <= 0)
+                                            {
+                                                <p>Out of stock, please contact the shop's owner for more information!</p>
+                                            } else
+                                            {
+                                                <div class="cart-plus-minus">
+                                                    <input type="text" value="1" name="qtybutton" class="cart-plus-minus-box" id="quantity-@Model.Product.Id">
+                                                </div>
+                                            }
+                                            
                                         </li>
                                         <li>
-                                            <a class="theme-btn-1 btn btn-effect-1" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal"
-                                               onclick="addToCart(@Model.Product.Id)">
-                                                <i class="fas fa-shopping-cart"></i>
-                                                <span>ADD TO CART</span>
-                                            </a>
+                                            @if (Model.Product.InStock > 0)
+                                            {
+                                                <a class="theme-btn-1 btn btn-effect-1" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal"
+                                                   onclick="addToCart(@Model.Product.Id)">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                    <span>ADD TO CART</span>
+                                                </a>
+                                            }
+                                            
                                         </li>
                                     </ul>
                                 </div>

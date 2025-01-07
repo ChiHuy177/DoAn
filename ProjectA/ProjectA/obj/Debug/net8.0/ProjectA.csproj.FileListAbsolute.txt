@@ -470,3 +470,4 @@ D:\GitHub\DoAn\ProjectA\ProjectA\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scri
 D:\GitHub\DoAn\ProjectA\ProjectA\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\GitHub\DoAn\ProjectA\ProjectA\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\GitHub\DoAn\ProjectA\ProjectA\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\GitHub\DoAn\ProjectA\ProjectA\bin\Debug\net8.0\BCrypt.Net-Next.dll

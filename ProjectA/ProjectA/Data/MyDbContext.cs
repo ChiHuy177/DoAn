@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MySql.Data.MySqlClient;
 using ProjectA.Models;
 
 namespace ProjectA.Data
@@ -15,5 +16,8 @@ namespace ProjectA.Data
         public DbSet<ClientModel> Clients { get; set; }
         public DbSet<OrderDetailsModel> OrderDetails { get; set; }
         public DbSet<OrderModel> Orders { get; set; }
+
+        
+
     }
 }
